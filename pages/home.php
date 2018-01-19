@@ -43,19 +43,19 @@
           <img src="https://c.p3parks.com/images/icon_4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="https://www.p3parks.com/our-story" class="btn btn-default">Our story</a>
+          <a href="" class="btn btn-default">Our story</a>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="https://www.p3parks.com/people" class="btn btn-default">People</a>
+          <a href="" class="btn btn-default">People</a>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="https://www.p3parks.com/awards" class="btn btn-default">Awards</a>
+          <a href="" class="btn btn-default">Awards</a>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="https://www.p3parks.com/careers" class="btn btn-default">Careers</a>
+          <a href="" class="btn btn-default">Careers</a>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="https://www.p3parks.com/contacts" class="btn btn-default">Contacts</a>
+          <a href="" class="btn btn-default">Contacts</a>
         </div>
       </div>
     </section>
@@ -73,16 +73,16 @@
       <div class="row">
         <ul class="slider-image medium">
           <li style="background: url(https://c.p3parks.com/images/we-develop-img.jpg);" class="loaded">
-            <a href="https://www.p3parks.com/we-develop"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE BUILD</h2></strong><p>We build all of our warehouses like you would <br> build your own home... with passion!</p></div></a>
+            <a href="https://www.p3parks.com/we-develop"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE BUILD</h2></strong><p>We build all of our warehouses like you would <br> build your own home... with passion! <br> Our customers are the lifeblood of our organization.</p></div></a>
           </li>
           <li data-src="https://c.p3parks.com/images/we-manage-img.jpg">
-            <a href="https://www.p3parks.com/we-manage"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our customers are our lifeblood. We bend over backwards <br> to make sure they get high-quality facilities <br> and the level of personalised service that they expect.</p></div></a>
+            <a href="https://www.p3parks.com/we-manage"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.</p></div></a>
           </li>
           <li data-src="https://c.p3parks.com/images/we-invest-img.jpg">
-            <a href="https://www.p3parks.com/we-invest"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Our well-balanced portfolio of assets spans across Europe:<br/> From Bucharest to Madrid, Warsaw to Milan.</p></div></a>
+            <a href="https://www.p3parks.com/we-invest"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
           </li>
           <li data-src="https://c.p3parks.com/images/we-own-img.jpg">
-            <a href="https://www.p3parks.com/we-own"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>Our buildings provide a home <br> for your business to grow.</p></div></a>
+            <a href="https://www.p3parks.com/we-own"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
           </li>
         </ul>
       </div>
