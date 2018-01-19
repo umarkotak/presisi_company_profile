@@ -31,16 +31,16 @@
           <p>Presisi owns, constructs, develops, and manages sustainable logistics facilities and provides innovative supply chain solutions across Indonesia.</p>
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25" id="counter-visiblity-check">
-          <img src="https://c.p3parks.com/images/icon_1.png"><!-- <h3><strong><span class="counter counter-done">4.1</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of gross lettable area</h6> -->
+          <img src="images/company_icon_1.png"><!-- <h3><strong><span class="counter counter-done">4.1</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of gross lettable area</h6> -->
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-          <img src="https://c.p3parks.com/images/icon_2.png"><!-- <h3><strong><span class="counter counter-done">1.8</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of space to be developed</h6> -->
+          <img src="images/company_icon_2.png"><!-- <h3><strong><span class="counter counter-done">1.8</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of space to be developed</h6> -->
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-          <img src="https://c.p3parks.com/images/icon_3.png"><!-- <h3>over <strong><span class="counter counter-done">340</span></strong></h3><h6>customers</h6> -->
+          <img src="images/company_icon_3.png"><!-- <h3>over <strong><span class="counter counter-done">340</span></strong></h3><h6>customers</h6> -->
         </div>
         <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-          <img src="https://c.p3parks.com/images/icon_4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
+          <img src="images/company_icon_4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
           <a href="" class="btn btn-default">Our story</a>
@@ -73,16 +73,16 @@
       <div class="row">
         <ul class="slider-image medium">
           <li style="background: url(https://c.p3parks.com/images/we-develop-img.jpg);" class="loaded">
-            <a href="https://www.p3parks.com/we-develop"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE BUILD</h2></strong><p>We build all of our warehouses like you would <br> build your own home... with passion! <br> Our customers are the lifeblood of our organization.</p></div></a>
+            <a href="?page=what_we_do&we=build"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE BUILD</h2></strong><p>We build all of our warehouses like you would <br> build your own home... with passion! <br> Our customers are the lifeblood of our organization.</p></div></a>
           </li>
           <li data-src="https://c.p3parks.com/images/we-manage-img.jpg">
-            <a href="https://www.p3parks.com/we-manage"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.</p></div></a>
+            <a href="?page=what_we_do&we=own"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.</p></div></a>
           </li>
           <li data-src="https://c.p3parks.com/images/we-invest-img.jpg">
-            <a href="https://www.p3parks.com/we-invest"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
+            <a href="?page=what_we_do&we=manage"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
           </li>
           <li data-src="https://c.p3parks.com/images/we-own-img.jpg">
-            <a href="https://www.p3parks.com/we-own"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
+            <a href="?page=what_we_do&we=inves"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
           </li>
         </ul>
       </div>
@@ -171,7 +171,8 @@ this.value = "";
             }
           });
 
-        </script></div></div></div></div></section>
+        </script>
+      </div></div></div></div></section>
         <!-- /content -->
       </main>
 
@@ -194,7 +195,8 @@ this.value = "";
         </div>
       </footer>
 
-      <div id="loader"></div>
+      <!-- SPLASH LOGO -->
+      <!-- <div id="loader"></div> -->
 
       <script type="text/javascript" src="https://www.p3parks.com/javascripts/3b212142f37c909fcba20fd87c60efcd-1515429700/"></script>
 

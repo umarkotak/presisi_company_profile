@@ -10,6 +10,7 @@
 
 <?php include "header.php"; ?>
 <?php include "content.php"; ?>
+<?php include "script.php"; ?>
 
 </body>
 </html>
