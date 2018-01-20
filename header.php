@@ -24,6 +24,24 @@ function aktif($page){
         </ul>
       </div>
 
+      <a href="#" id="btn-icon-bar">
+        <span class="icon-bar-box">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </span>
+      </a>
     </div>
   </div>
 </header>
+
+<nav class="closed">
+  <ul id="main-menu">
+    <li><a <?php aktif("home") ?> href="?page=home">Home</a></li>
+    <li><a <?php aktif("company") ?> href="?page=company">Company</a></li>
+    <li><a <?php aktif("services") ?> href="?page=services">Services</a></li>
+    <li><a <?php aktif("careers") ?> href="?page=careers">Careers</a></li>
+    <li><a <?php aktif("downloads") ?> href="?page=downloads">Downloads</a></li>
+    <li><a <?php aktif("contact") ?> href="?page=contact">Contact Us</a></li>
+  </ul>
+</nav>
