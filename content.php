@@ -8,7 +8,7 @@ if (isset($_GET['page'])) {
   elseif ($page == 'careers')                   { include "pages/careers.php"; }
   elseif ($page == 'downloads')                 { include "pages/downloads.php"; }
   elseif ($page == 'contact')                   { include "pages/contact.php"; }
-
+  elseif ($page == 'what_we_do')                { include "pages/what_we_do.php"; }
 
   else                                          { include "pages/notfound.php"; }
 
