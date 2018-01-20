@@ -72,17 +72,19 @@
     <section class="container-fluid what-we-do m-t-30">
       <div class="row">
         <ul class="slider-image medium">
-          <li style="background: url(https://c.p3parks.com/images/we-develop-img.jpg);" class="loaded">
-            <a href="?page=what_we_do&we=build"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE BUILD</h2></strong><p>We build all of our warehouses like you would <br> build your own home... with passion! <br> Our customers are the lifeblood of our organization.</p></div></a>
+          <li style="background: url(images/we_image1.jpg);" class="loaded">
+            <a href="?page=what_we_do&we=build"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;">
+              <strong><div class="dot-red"></div><h2 class="h2-white"">WE BUILD</h2></strong>
+              <p>We build all of our warehouses like you would <br> build your own home... with passion! <br> Our customers are the lifeblood of our organization.</p></div></a>
           </li>
-          <li data-src="https://c.p3parks.com/images/we-manage-img.jpg">
-            <a href="?page=what_we_do&we=own"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.</p></div></a>
+          <li data-src="images/we_image2.jpg">
+            <a href="?page=what_we_do&we=own"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.</p></div></a>
           </li>
-          <li data-src="https://c.p3parks.com/images/we-invest-img.jpg">
-            <a href="?page=what_we_do&we=manage"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
+          <li data-src="images/we_image3.jpg">
+            <a href="?page=what_we_do&we=manage"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
           </li>
-          <li data-src="https://c.p3parks.com/images/we-own-img.jpg">
-            <a href="?page=what_we_do&we=inves"><div class="filter"></div><div class="center-box-mob"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
+          <li data-src="images/we_image4.jpg">
+            <a href="?page=what_we_do&we=inves"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
           </li>
         </ul>
       </div>
