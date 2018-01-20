@@ -1,97 +1,13 @@
 <main class="op-0" style="min-height: calc(100vh - 78px);">
-  <section class="container-fluid main-slider">
-    <div class="row">
-      <ul class="slider-image col-xs-12">
-        <li data-src="images/slide1.jpg">
-          <div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 75%; border-radius: 10px;">
-            <b>Your trusted partner for logistics and supply chain needs</b>
-            <p style="font-size: 18px; font-weight: 100px; margin-top: 0px;">A warehouse is more than just a storage facility</p>
-            <p style="font-size: 18px; font-weight: 100px; margin-top: 0px;">It is a home for your business.</p>
-            <p style="font-size: 18px; font-weight: 100px; margin-top: 0px;">A fundamental building block of your success.</p>
-          </div>
-        </li>
-        <li data-src="images/slide2.jpg">
-          <div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 75%; border-radius: 10px;">
-            <b>Experience our warehouse</b>
-          </div>
-        </li>
-        <li data-src="images/slide3.jpg">
-          <div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 75%; border-radius: 10px;">
-            <b>Check out our Build-to-Suit development for DHL</b>
-          </div>
-        </li>
-      </ul>
-      <a href="#" id="hp-arrow" class="hp-arrow"><img src="https://c.p3parks.com/images/design/2016/hp-arrow.png"></a></div>
-    </section>
 
     <section class="container p-center" style="border-bottom: solid 1px #a30836;" id="anchor-slide">
       <div class="row m-b-50">
         <div class="col-xs-12 m-b-80 xs-m-b-0">
-          <a href="" class="h2">Company</a>
-          <p>Presisi owns, constructs, develops, and manages sustainable logistics facilities and provides innovative supply chain solutions across Indonesia.</p>
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25" id="counter-visiblity-check">
-          <img src="images/company_icon_1.png"><!-- <h3><strong><span class="counter counter-done">4.1</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of gross lettable area</h6> -->
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-          <img src="images/company_icon_2.png"><!-- <h3><strong><span class="counter counter-done">1.8</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of space to be developed</h6> -->
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-          <img src="images/company_icon_3.png"><!-- <h3>over <strong><span class="counter counter-done">340</span></strong></h3><h6>customers</h6> -->
-        </div>
-        <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-          <img src="images/company_icon_4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="" class="btn btn-default">Our story</a>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="" class="btn btn-default">People</a>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="" class="btn btn-default">Awards</a>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="" class="btn btn-default">Careers</a>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="" class="btn btn-default">Contacts</a>
+          <a href="" class="h2">404 - PAGES NOT FOUND</a>
+          <p>I'm sorry for this inconvenient, please go back to the home page <a href="?page=home">here</a></p>
         </div>
       </div>
     </section>
-
-    <section class="container m-t-80">
-      <div class="row">
-        <div class="col-xs-12 p-center">
-          <a href="https://www.p3parks.com/what-we-do" class="h2">What we do</a>
-          <p>At Presisi, we do not just build storage facilities, we collaborate with our clients to help them unlock their competitive advantages through our high quality buildings, and efficient logistics and supply chain services.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="container-fluid what-we-do m-t-30">
-      <div class="row">
-        <ul class="slider-image medium">
-          <li style="background: url(images/we_image1.jpg);" class="loaded">
-            <a href="?page=what_we_do&we=build"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;">
-              <strong><div class="dot-red"></div><h2 class="h2-white"">WE BUILD</h2></strong>
-              <p>We build all of our warehouses like you would <br> build your own home... with passion! <br> Our customers are the lifeblood of our organization.</p></div></a>
-          </li>
-          <li data-src="images/we_image2.jpg">
-            <a href="?page=what_we_do&we=own"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.</p></div></a>
-          </li>
-          <li data-src="images/we_image3.jpg">
-            <a href="?page=what_we_do&we=manage"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
-          </li>
-          <li data-src="images/we_image4.jpg">
-            <a href="?page=what_we_do&we=inves"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-
-
 
         <script type="text/javascript">
           function fbht(htid)

@@ -1,7 +1,9 @@
 <?php
 function aktif($page){
-  if ($page == $_GET['page']) {
-    echo "class=\"menuactive\"";
+  if (isset($_GET['page'])) {
+    if ($page == $_GET['page']) {
+      echo "class=\"menuactive\"";
+    }
   }
 }
 ?>

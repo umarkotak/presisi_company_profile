@@ -2,14 +2,19 @@
 if (isset($_GET['page'])) {
   $page = $_GET['page'];
 
-  if ($page == 'home')                      { include "pages/home.php"; }
-  if ($page == 'company')                   { include "pages/company.php"; }
-  if ($page == 'services')                  { include "pages/services.php"; }
-  if ($page == 'careers')                   { include "pages/careers.php"; }
-  if ($page == 'downloads')                 { include "pages/downloads.php"; }
-  if ($page == 'contact')                   { include "pages/contact.php"; }
+  if ($page == 'home')                          { include "pages/home.php"; }
+  elseif ($page == 'company')                   { include "pages/company.php"; }
+  elseif ($page == 'services')                  { include "pages/services.php"; }
+  elseif ($page == 'careers')                   { include "pages/careers.php"; }
+  elseif ($page == 'downloads')                 { include "pages/downloads.php"; }
+  elseif ($page == 'contact')                   { include "pages/contact.php"; }
+
+
+  else                                          { include "pages/notfound.php"; }
 
 } else {
-  header("location: ?page=home");
+  // header("Location: ?page=home");
+  $_GET['page'] = "home";
+  include "pages/home.php";
 }
 ?>
