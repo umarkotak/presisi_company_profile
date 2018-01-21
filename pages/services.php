@@ -10,7 +10,7 @@
         <br>
         <p style="text-align: justify;">
           <img src="images/company_icon_3.png" style="float: right; margin: 5px;">
-          Our vision has also been very clear from the start: to be the leader in warehouse, logistics, and supply chain solutions provider. This is achieved through having modern and superior warehouses equipped with the latest specifications, finest sustainable materials, and advanced innovations that corresponded with our customers’ requirements. Our strategy is further fortified by our position as being one of the main providers of innovative logistics and supply-chain services in Indonesia—allowing for optimal solutions in all aspects. 
+          Our vision has also been very clear from the start: to be the leader in warehouse, logistics, and supply chain solutions provider. This is achieved through having modern and superior warehouses equipped with the latest specifications, finest sustainable materials, and advanced innovations that corresponded with our customers’ requirements. Our strategy is further fortified by our position as being one of the main providers of innovative logistics and supply-chain services in Indonesia—allowing for optimal solutions in all aspects.
         </p>
       </div>
 
@@ -30,7 +30,7 @@
       </div>
   </section>
 
-  <section class="container m-t-80">
+  <section class="container m-t-80" id="build_to_suit">
     <div class="row">
       <div class="col-xs-12 p-center">
         <a href="https://www.p3parks.com/what-we-do" class="h2">Build to Suit Development</a>
@@ -41,31 +41,119 @@
 
       <div style="">
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
-          <a href="" class="btn btn-default">Considerate</a>
+          <a href="#" class="btn btn-default">Considerate</a>
           <p style="text-align: center;">
             We take into consideration your company’s unique requirements in order to fulfil your corporate and operational needs.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="" class="btn btn-default">Long term lease</a>
+          <a href="#" class="btn btn-default">Long term lease</a>
           <p style="text-align: center;">
             When opting for a Build-to-Suit service, you are committed to a long-term lease, and reap the benefit of long-term reliability with respect to location and rental rates.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
-          <a href="" class="btn btn-default">Responsible</a>
+          <a href="#" class="btn btn-default">Responsible</a>
           <p style="text-align: center;">
             We are responsible for bearing the capital expenditure that comes with developing and owning of the building.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
-          <a href="" class="btn btn-default">Secure</a>
+          <a href="#" class="btn btn-default">Secure</a>
           <p style="text-align: center;">
             Whether it’s security or accessibility, you can maintain control and authority over the asset management of the property.
           </p>
         </div>
       </div>
     </div>
+  </section>
+
+  <section class="container-fluid what-we-do m-t-30" style="border-bottom: solid 1px #a30836;">
+    <div class="row">
+      <div class="col-sm-12">
+        <iframe class="" style="width: 100%; height: 500px;"
+          src="https://www.youtube.com/embed/rwvmru5JmXk">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <section class="container p-center" style="border-bottom: solid 1px #a30836;" id="warehouse_service">
+    <div class="row m-b-50">
+      <div class="col-xs-12 m-b-80 xs-m-b-0">
+        <a href="" class="h2">Warehouse Service</a>
+      </div>
+
+      <div class="col-xs-12 m-b-80 xs-m-b-0">
+        <h3 style="text-align: left;">Warehouse Rental</h3>
+        <p style="text-align: justify;">
+          Whether it is an SME looking for extra space to grow or simply not ready to commit to a long-term lease that comes with our Build-to-Suit development—whatever the situation may be—our ready-to-use facilities offer a great solution for those looking for a small or short or long-term rental. Opting for a warehouse rental allow our customers to view warehousing as operating expenses rather than as capital investments, thus saving them from the trouble of having to build it from zero. All of our warehouses are built according to the international standards, thus ensuring its quality and sustainability.
+        </p>
+
+        <p style="text-align: justify;">
+          Along with storage facility, we also provide warehouse resources such as:
+        </p>
+
+        <div class="col-md-6">
+          <p style="text-align: justify;">
+            <ul style="text-align: left;">
+              <li>Manpower</li>
+              <li>Trucks</li>
+              <li>Handling Equipment
+                <ul>
+                  <li>Manual and mechanical handling equipment
+                    <ul>
+                      <li>Trolleys, cages, carts and garment rails.</li>
+                      <li>Hand pallet truck, powered pallet truck and manual stacker truck.</li>
+                      <li>Forklift trucks.</li>
+                      <li>Low-level order pickers and towing tractors.</li>
+                    </ul>
+                  </li>
+                  <li>High-level order pickers</li>
+                  <li>Conveyors</li>
+                </ul>
+              </li>
+            </ul>
+          </p>
+        </div>
+
+        <div class="col-md-6">
+          <p style="text-align: justify;">
+            <ul style="text-align: left;">
+              <li>Storage equipment
+                <ul>
+                  <li>Floor/Bulk storage</li>
+                  <li>Standard pallet racking</li>
+                  <li>Shelving</li>
+                  <li>Carousels
+                    <ul>
+                      <li>Horizontal carousels</li>
+                      <li>Vertical carousels</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>Warehouse Management System</li>
+              <li>And many more</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+
+      <div style="">
+        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+          <a href="#warehouse_service" class="btn btn-default">Warehouse Service</a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+          <a href="#build_to_suit" class="btn btn-default">Build to Suit Development</a>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        </div>
+      </div>
   </section>
 
   <form id="m2b7d3moduleform_1" method="post" action="https://www.p3parks.com/" class="cms_form" enctype="multipart/form-data">
