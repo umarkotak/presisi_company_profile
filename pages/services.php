@@ -84,7 +84,7 @@
         <a href="" class="h2">Warehouse Service</a>
       </div>
 
-      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-bottom: solid 1px #a30836;">
+      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-bottom: solid 1px #fcb6cb;">
         <h3 style="text-align: left;">Warehouse Rental</h3>
         <p style="text-align: justify;">
           Whether it is an SME looking for extra space to grow or simply not ready to commit to a long-term lease that comes with our Build-to-Suit development—whatever the situation may be—our ready-to-use facilities offer a great solution for those looking for a small or short or long-term rental. Opting for a warehouse rental allow our customers to view warehousing as operating expenses rather than as capital investments, thus saving them from the trouble of having to build it from zero. All of our warehouses are built according to the international standards, thus ensuring its quality and sustainability.

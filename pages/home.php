@@ -13,11 +13,13 @@
         <li data-src="images/slide2.jpg">
           <div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 75%; border-radius: 10px;">
             <b>Experience our warehouse</b>
+            <a href="?page=services#warehouse_service" class="btn btn-default">Experience Now</a>
           </div>
         </li>
         <li data-src="images/slide3.jpg">
           <div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 75%; border-radius: 10px;">
             <b>Check out our Build-to-Suit development for DHL</b>
+            <a href="?page=services#build_to_suit" class="btn btn-default">Watch Now</a>
           </div>
         </li>
       </ul>
