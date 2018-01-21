@@ -12,6 +12,7 @@
 
   <link rel="shortcut icon" href="images/favicon.ico">
 
+  <link rel="stylesheet" type="text/css" href="style/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" media="all" href="style/css1.css" />
   <link rel="stylesheet" type="text/css" media="projection, screen" href="style/css2.css" />
 

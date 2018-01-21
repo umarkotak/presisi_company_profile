@@ -42,25 +42,25 @@
       <div style="">
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
           <a href="#" class="btn btn-default">Considerate</a>
-          <p style="text-align: center;">
+          <p style="text-align: justify;">
             We take into consideration your company’s unique requirements in order to fulfil your corporate and operational needs.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
           <a href="#" class="btn btn-default">Long term lease</a>
-          <p style="text-align: center;">
+          <p style="text-align: justify;">
             When opting for a Build-to-Suit service, you are committed to a long-term lease, and reap the benefit of long-term reliability with respect to location and rental rates.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
           <a href="#" class="btn btn-default">Responsible</a>
-          <p style="text-align: center;">
+          <p style="text-align: justify;">
             We are responsible for bearing the capital expenditure that comes with developing and owning of the building.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
           <a href="#" class="btn btn-default">Secure</a>
-          <p style="text-align: center;">
+          <p style="text-align: justify;">
             Whether it’s security or accessibility, you can maintain control and authority over the asset management of the property.
           </p>
         </div>
@@ -84,7 +84,7 @@
         <a href="" class="h2">Warehouse Service</a>
       </div>
 
-      <div class="col-xs-12 m-b-80 xs-m-b-0">
+      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-bottom: solid 1px #a30836;">
         <h3 style="text-align: left;">Warehouse Rental</h3>
         <p style="text-align: justify;">
           Whether it is an SME looking for extra space to grow or simply not ready to commit to a long-term lease that comes with our Build-to-Suit development—whatever the situation may be—our ready-to-use facilities offer a great solution for those looking for a small or short or long-term rental. Opting for a warehouse rental allow our customers to view warehousing as operating expenses rather than as capital investments, thus saving them from the trouble of having to build it from zero. All of our warehouses are built according to the international standards, thus ensuring its quality and sustainability.
@@ -140,19 +140,44 @@
         </div>
       </div>
 
-      <div style="">
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="#warehouse_service" class="btn btn-default">Warehouse Service</a>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="#build_to_suit" class="btn btn-default">Build to Suit Development</a>
-        </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        </div>
+      <div class="col-xs-12 m-b-80 xs-m-b-0" style="">
+        <h3 style="text-align: right;">Warehouse Capacity</h3>
+        <p style="text-align: justify;">
+          Facility location: Delta Silikon 2. Lippo Cikarang Industrial Estate, Bekasi, West Java <br>
+          Our storage facility has an indoor storage area of 20,000 m2, an outdoor storage area of 5,000 m2 and was built upon a land of over 3.3 Ha. The facility is equipped with 24 ports and has a height of over 15 metres which allowed for clear air circulation. The environmental friendly skylight reduced the need for electricity and generators are available to supply self-supportive power when needed.
+        </p>
+      </div>
+
+      <div class="col-xs-6 m-b-80 xs-m-b-0" style="border-right: 1px solid #a30836">
+        <h3 style="font-size: 20px; border-bottom: 1px solid #a30836;">Civil and structural details of our facility construction</h3>
+        <p>
+          <ol style="text-align: justify;">
+            <li><b>Indoor storage:</b> Capable to cater for 4 tonnes/m2</li>
+            <li><b>Outdoor storage:</b> Capable to cater for 2 tonnes/m2</li>
+            <li><b>Road:</b> Concrete foundation with the ability to support 20 trucks with 40 ft. container.</li>
+            <li><b>Canopy:</b> Cantilevered off the building wall with 6 meters at loading bay.</li>
+            <li><b>Loading bays:</b> 3 loading docks with an elevated 1.2-metres loading bay.</li>
+            <li><b>Electricity:</b> Over 350 KVA expandable to 450 KVA with 2 standby generator set for electricity back-up.</li>
+            <li><b>Industrial water supply:</b> Supplied by Kawasan Industri Lippo Cikarang.</li>
+            <li><b>Safety equipment:</b> Full safety measures with fire hydrant, host reel, portable extinguisher and water host.</li>
+            <li><b>Main road:</b> Concrete road with a width of 6-metres and two-ways traffic.</li>
+          </ol>
+        </p>
+      </div>
+
+      <div class="col-xs-6 m-b-80 xs-m-b-0" style="">
+        <h3 style="font-size: 20px; border-bottom: 1px solid #a30836;">Value added warehousing</h3>
+        <p>
+          <ol style="text-align: justify;">
+            <li>15 minutes from exit toll road Cikarang Barat (Cikampek Toll Road).</li>
+            <li>Approximately 50 km from Central Business District in Jakarta – Sudirman.</li>
+            <li>Premises are built on safe and secured industrial areas.</li>
+            <li>Nearby several industrial areas: Kawasan Industri Jababeka, East Jakarta Industrial Part (EJIP), Kawasan Industri MM2100 Cibitung and Lippo Cikarang Delta Silikon 1.</li>
+            <li>New access toll roads.</li>
+            <li>Nature conscious, sustainable and environmentally-friendly facility.</li>
+            <li>End-to-end solutions.</li>
+          </ol>
+        </p>
       </div>
   </section>
 

@@ -15,7 +15,7 @@ function aktif($page){
 
       <div class="horizontal-menu">
         <ul id="main-menu">
-          <li><a <?php aktif("home") ?> href="?page=home">Home</a></li>
+          <li><a <?php aktif("home") ?> href="?page=home"><i class="fa fa-home"></i> Home</a></li>
           <li><a <?php aktif("company") ?> href="?page=company">Company</a></li>
           <li><a <?php aktif("services") ?> href="?page=services">Services</a></li>
           <li><a <?php aktif("careers") ?> href="?page=careers">Careers</a></li>
