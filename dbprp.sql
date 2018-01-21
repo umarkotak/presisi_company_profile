@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 20, 2018 at 04:05 PM
+-- Generation Time: Jan 21, 2018 at 09:08 AM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -84,7 +84,7 @@ CREATE TABLE `fourth_page` (
 --
 
 INSERT INTO `fourth_page` (`ftp_id`, `ftp_title`, `ftp_description`) VALUES
-(1, 'Grow with Presisi', 'At Presisi, we truly value our people––we believe in their capabilities and potentials. We see them as qualified, uniquely talented and supportive team members whose contributions we deeply appreciate. As a company that has been around for many years, we attributed the success of our firm to our dedicated employees. Our long-standing position as being one of Indonesia’s warehouse, logistics, and supply chain solutions provider is only made possible by creating a fulfilling working environment for our people. We strive to create an environment which promote integrity, respect, and ethical behaviour within our corporation and beyond. Each and every one of our employees are encouraged to take initiatives, participate in active discussions in different teams, and make a difference. <br><br>If innovation, warehouse, logistics and supply chain are your passion; success and excellence are what you strive for; be a part of our growing team.<br>Send your CV to: <a href=\"mailto:career@presisirekayasa.com\" target=\"_top\">career@presisirekayasa.com</a><br><br><small>Data compliance: Please provide us with the necessary information such as resume or curriculum vitae. By providing us with such information, you agree that we may use these materials for the purpose of considering your application. If your application is unsuccessful, we may keep the information for future consideration for a limited period of time. Your information will be stored in accordance to the country’s data protection laws.</small>');
+(1, 'Grow with Presisi', 'At Presisi, we truly value our people we believe in their capabilities and potentials. We see them as qualified, uniquely talented and supportive team members whose contributions we deeply appreciate. As a company that has been around for many years, we attributed the success of our firm to our dedicated employees. Our long-standing position as being one of Indonesia\'s warehouse, logistics, and supply chain solutions provider is only made possible by creating a fulfilling working environment for our people. We strive to create an environment which promote integrity, respect, and ethical behaviour within our corporation and beyond. Each and every one of our employees are encouraged to take initiatives, participate in active discussions in different teams, and make a difference. <br><br>If innovation, warehouse, logistics and supply chain are your passion; success and excellence are what you strive for; be a part of our growing team.<br><br><b>Send your CV to: <a href=\"mailto:career@presisirekayasa.com\" target=\"_top\">career@presisirekayasa.com</a></b><br><br><small>Data compliance: Please provide us with the necessary information such as resume or curriculum vitae. By providing us with such information, you agree that we may use these materials for the purpose of considering your application. If your application is unsuccessful, we may keep the information for future consideration for a limited period of time. Your information will be stored in accordance to the country\'s data protection laws.</small>');
 
 -- --------------------------------------------------------
 
@@ -119,15 +119,18 @@ CREATE TABLE `sixth_page` (
   `sxp_id` int(2) NOT NULL,
   `office_name` varchar(30) NOT NULL,
   `office_address` varchar(100) NOT NULL,
-  `sxp_description` varchar(100) NOT NULL
+  `sxp_description` varchar(100) NOT NULL,
+  `office_phone` varchar(20) NOT NULL,
+  `office_fax` varchar(20) NOT NULL,
+  `office_email` varchar(50) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `sixth_page`
 --
 
-INSERT INTO `sixth_page` (`sxp_id`, `office_name`, `office_address`, `sxp_description`) VALUES
-(1, 'PT. Presisi Rekayasa Persada', 'Jl. Sultan Iskandar Muda, Kebayoran Lama, Jakarta Selatan 12240, Indonesia', 'Gandaria 8 Office 3rd Floor Unit C');
+INSERT INTO `sixth_page` (`sxp_id`, `office_name`, `office_address`, `sxp_description`, `office_phone`, `office_fax`, `office_email`) VALUES
+(1, 'PT. Presisi Rekayasa Persada', 'Jl. Sultan Iskandar Muda, Kebayoran Lama, Jakarta Selatan 12240, Indonesia', 'Gandaria 8 Office 3rd Floor Unit C', '+62 21 8378 1718', '+62 21 8378 1718', 'info@presisirekayasa.com');
 
 --
 -- Indexes for dumped tables
