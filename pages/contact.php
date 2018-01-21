@@ -72,22 +72,22 @@
                         <div class="col-xs-12 col-sm-7">
                             <div class="row">
                                 <div class="required input-min-height replaceLang">
-                                    <input type="text" name="full_name" value="" size="50" maxlength="128" required>
+                                    <input type="text" name="full_name" value="" size="50" maxlength="128" required placeholder="ex: John Doe">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="required input-min-height replaceLang">
-                                    <input type="text" name="email" value="" size="50" maxlength="128" required>
+                                    <input type="text" name="email" value="" size="50" maxlength="128" required placeholder="ex: john@example.com">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="required input-min-height replaceLang">
-                                    <input type="text" name="phone" value="" size="50" maxlength="12">
+                                    <input type="text" name="phone" value="" size="50" maxlength="12" placeholder="ex: 085123456789">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="required input-min-height replaceLang">
-                                    <textarea name="message" maxlength="500" class="required input-min-height replaceLang" required style="width: 508.5px; height: 104px;"></textarea>
+                                    <textarea name="message" maxlength="500" class="required input-min-height replaceLang" required style="width: 508.5px; height: 104px;" placeholder="ex: Lorem ipsum ..."></textarea>
                                 </div>
                             </div>
                             <div class="row">
