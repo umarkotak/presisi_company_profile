@@ -92,7 +92,7 @@
                             </div>
                             <div class="row">
                                 <div>
-                                    <input type="submit" value="Submit">
+                                    <input type="submit" value="Send Message">
                                 </div>
                             </div>
                         </div>
