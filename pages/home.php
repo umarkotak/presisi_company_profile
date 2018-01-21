@@ -114,11 +114,11 @@
 
 <a href="#" id="slide-top" style="display:none;"><i class="fa fa-arrow-circle-o-up" aria-hidden="true" style="font-size: 4.0rem;"></i></a>
 
-<div id="cookies-rules-box">
+<!-- <div id="cookies-rules-box">
   This website uses cookies for better performance. By staying on this website and clicking on the “Confirm” button you agree with their use. More information
   <a href="http://www.google.com/intl/en/policies/technologies/cookies/" target="_blank" id="cookies-more">here.</a>
   <a id="cookies-rules-box-btn" href="#">CONFIRM</a>
-</div>
+</div> -->
 
 <!-- SPLASH LOGO -->
 <!-- <div id="loader"></div> -->

@@ -179,6 +179,54 @@
           </ol>
         </p>
       </div>
+
+      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;">
+        <h3 style="text-align: left;">Distribution Service</h3>
+        <p style="text-align: justify;">
+          We are committed to serving you the highest quality of services from end-to-end. Our distribution service guarantees that the transport of goods from one location to another are feasible, safe, and prompt. We have a number of company-owned vehicles available to cater your needs and can be adjusted to suit your business as your requirements grow. Furthermore, our extensive network allows for other freight services to be carried out when needed. Health and safety during the distribution operations are paramount, and part of the process of achieving a high-quality service is ensuring that:<br>
+          <span style="display:inline-block; width: 50px;"></span>1. Employees are required to undertake training and encouraged to report issues. <br>
+          <span style="display:inline-block; width: 50px;"></span>2. Vehicles are regularly maintained. <br>
+          <span style="display:inline-block; width: 50px;"></span>3. Logistics Management Service <br>
+          <span style="display:inline-block; width: 50px;"></span>4. Repair centre and spare part management
+        </p>
+      </div>
+
+      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;">
+        <h3 style="text-align: right;">Supply Chain Management</h3>
+
+        <br>
+        <div>
+          <div class="col-xs-12 col-md-2">
+            <a href="" class="btn btn-default">Evaluate</a>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <a href="" class="btn btn-default">Design</a>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <a href="" class="btn btn-default">Implement</a>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <a href="" class="btn btn-default">Manage</a>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <a href="" class="btn btn-default">Operate</a>
+          </div>
+          <div class="col-xs-12 col-md-2">
+            <a href="" class="btn btn-default">Improve</a>
+          </div>
+        </div>
+
+        <br>
+        <p style="text-align: justify; margin-top: 20px;">
+          <span style="display:inline-block; width: 50px;"></span>We believe that effective process leads to real results. Here at Presisi, we integrate technology, business process and our client’s company culture to develop supply chain strategies that could help them thrive in today’s uncertain environment. When designing an effective supply chain strategy, we do not believe in a one-size-fits-all method. Every client is unique, and every strategy is designed to provide them with the best solution for their business. Our evaluation starts from the end demand, then work backwards through production and supply, and ultimately identifying the most logical facility designs and locations along with transportation options.
+        </p>
+        <p style="text-align: justify;">
+          <span style="display:inline-block; width: 50px;"></span>Following the evaluation process is the design; where we create an efficient logistics and supply chain network, and facility optimizations. To ensure a successful execution, our design team stays involved during the implementation process. Such involvement includes the management of people, process and integration of technology. We provide our clients with real-time visibility throughout their whole supply chain process, which help them to continually raise the bar for constant improvements, and ultimately obtain the desired results.
+        </p>
+        <p style="text-align: justify;">
+          <span style="display:inline-block; width: 50px;"></span>Become a forward-looking company with Presisi today as we embark on this journey of logistics and supply chain management together. By treating supply chain as a dynamic hedge against uncertainty, actively reconfiguring and examining, we help our clients embrace the new environment’s growing uncertainty and complexity.
+        </p>
+      </div>
   </section>
 
   <form id="m2b7d3moduleform_1" method="post" action="https://www.p3parks.com/" class="cms_form" enctype="multipart/form-data">
@@ -202,11 +250,11 @@
 
 <a href="#" id="slide-top" style="display:none;"><i class="fa fa-arrow-circle-o-up" aria-hidden="true" style="font-size: 4.0rem;"></i></a>
 
-<div id="cookies-rules-box">
+<!-- <div id="cookies-rules-box">
   This website uses cookies for better performance. By staying on this website and clicking on the “Confirm” button you agree with their use. More information
   <a href="http://www.google.com/intl/en/policies/technologies/cookies/" target="_blank" id="cookies-more">here.</a>
   <a id="cookies-rules-box-btn" href="#">CONFIRM</a>
-</div>
+</div> -->
 
 <!-- SPLASH LOGO -->
 <!-- <div id="loader"></div> -->
