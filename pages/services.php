@@ -191,28 +191,28 @@
         </p>
       </div>
 
-      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;">
+      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;" id="supply">
         <h3 style="text-align: right;">Supply Chain Management</h3>
 
         <br>
         <div>
           <div class="col-xs-12 col-md-2">
-            <a href="" class="btn btn-default">Evaluate</a>
+            <a href="#supply" class="btn btn-default">Evaluate</a>
           </div>
           <div class="col-xs-12 col-md-2">
-            <a href="" class="btn btn-default">Design</a>
+            <a href="#supply" class="btn btn-default">Design</a>
           </div>
           <div class="col-xs-12 col-md-2">
-            <a href="" class="btn btn-default">Implement</a>
+            <a href="#supply" class="btn btn-default">Implement</a>
           </div>
           <div class="col-xs-12 col-md-2">
-            <a href="" class="btn btn-default">Manage</a>
+            <a href="#supply" class="btn btn-default">Manage</a>
           </div>
           <div class="col-xs-12 col-md-2">
-            <a href="" class="btn btn-default">Operate</a>
+            <a href="#supply" class="btn btn-default">Operate</a>
           </div>
           <div class="col-xs-12 col-md-2">
-            <a href="" class="btn btn-default">Improve</a>
+            <a href="#supply" class="btn btn-default">Improve</a>
           </div>
         </div>
 
