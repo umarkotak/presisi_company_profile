@@ -148,8 +148,8 @@
         </p>
       </div>
 
-      <div class="col-xs-6 m-b-80 xs-m-b-0" style="border-right: 1px solid #a30836">
-        <h3 style="font-size: 20px; border-bottom: 1px solid #a30836;">Civil and structural details of our facility construction</h3>
+      <div class="col-xs-6 m-b-80 xs-m-b-0" style="border-right: 1px solid #fcb6cb">
+        <h3 style="font-size: 20px; border-bottom: 1px solid #fcb6cb;">Civil and structural details of our facility construction</h3>
         <p>
           <ol style="text-align: justify;">
             <li><b>Indoor storage:</b> Capable to cater for 4 tonnes/m2</li>
@@ -166,7 +166,7 @@
       </div>
 
       <div class="col-xs-6 m-b-80 xs-m-b-0" style="">
-        <h3 style="font-size: 20px; border-bottom: 1px solid #a30836;">Value added warehousing</h3>
+        <h3 style="font-size: 20px; border-bottom: 1px solid #fcb6cb;">Value added warehousing</h3>
         <p>
           <ol style="text-align: justify;">
             <li>15 minutes from exit toll road Cikarang Barat (Cikampek Toll Road).</li>
