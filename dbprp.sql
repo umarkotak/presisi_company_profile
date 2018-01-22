@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 21, 2018 at 09:10 AM
+-- Generation Time: Jan 22, 2018 at 01:57 PM
 -- Server version: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
@@ -39,7 +39,7 @@ CREATE TABLE `fifth_page` (
 --
 
 INSERT INTO `fifth_page` (`ffp_id`, `ffp_title`, `ffp_description`) VALUES
-(1, 'WAREHOUSE DESIGN PROPOSAL', 'This proposal contained an initial design and images of our Logistics Distribution Centre that our company built for a customer. Having had the opportunity to work closely with our customer and to be entrusted with the construction of their desired facility, we are confident that our available facilities would meet the needs of your requirements.<br><br>Reception, offices, and overall façade of our facilities can be easily redesign and will not translate into a higher cost or a compromise operation.');
+(1, 'WAREHOUSE DESIGN PROPOSAL', 'This proposal contained an initial design and images of our Logistics Distribution Centre that our company built for a customer. Having had the opportunity to work closely with our customer and to be entrusted with the construction of their desired facility, we are confident that our available facilities would meet the needs of your requirements.<br><br>Reception, offices, and overall facade of our facilities can be easily redesign and will not translate into a higher cost or a compromise operation.');
 
 -- --------------------------------------------------------
 

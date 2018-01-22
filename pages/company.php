@@ -14,7 +14,7 @@ function getDescription($conn, $title){
 <!-- content -->
 <section class="container-fluid fade-hidden fade-visible animated fadeIn full-visible">
     <div class="row">
-        <div class="image-cover loaded" data-src="https://c.p3parks.com/images/company_1.png" style="max-height: 537px; background: url(&quot;https://c.p3parks.com/images/company_1.png&quot;);">
+        <div class="image-cover loaded" data-src="http://localhost/presisi_company_profile/images/company_1.png" style="max-height: 537px; background: url(&quot;http://localhost/presisi_company_profile/images/company_1.png&quot;);">
             <div class="filter"></div>
 
             <div class="center-box">
@@ -130,101 +130,22 @@ function getDescription($conn, $title){
             </p>
         </div>
         <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="https://c.p3parks.com/images/company_awards_1.png">
+            <img src="images/no_available.png">
         </div>
         <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="https://c.p3parks.com/images/award-see-real.png">
+            <img src="images/no_available.png">
         </div>
         <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="https://c.p3parks.com/images/awards-ceeqa.png">
+            <img src="images/no_available.png">
         </div>
         <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="https://c.p3parks.com/images/awards-cij.png">
+            <img src="images/no_available.png">
         </div>
         <div class="col-xs-12 m-t-55 t-center"> <a href="#" title="Awards" class="btn btn-default">SHOW ALL</a></div>
         <!-- <div class="col-xs-12 m-t-55 t-center"> <a href="https://www.p3parks.com/en/company/awards/" title="Awards" class="btn btn-default">SHOW ALL</a></div> -->
     </div>
 </section>
 
-<section class="container-fluid m-b-70 subscribe fade-hidden">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 t-center m-t-50">
-                <h2 class="h2-blue">PRP<span class="t-red-dot">.</span></h2>
-                <p class="m-b-15" style="font-size: 3.0rem;">Recieve the latest news straight to your inbox!</p>
-
-                <script type="text/javascript">
-                    function fbht(htid)
-                    {
-                        var fbhtc=document.getElementById(htid);
-                        if (fbhtc)
-                        {
-                            if (fbhtc.style.display == 'none')
-                            {
-                                fbhtc.style.display = 'inline';
-                            }
-                            else
-                            {
-                                fbhtc.style.display = 'none';
-                            }
-                        }
-                    }
-                </script>
-
-
-                <!-- Start FormBuilder Module (1.0) -->
-                <!-- https://www.p3parks.com/en/company/ -->
-                <form id="m2b7d3moduleform_1" method="post" action="" class="cms_form" enctype="multipart/form-data">
-                    <div class="hidden">
-                        <input type="hidden" name="mact" value="FormBuilder,m2b7d3,default,1">
-                        <input type="hidden" name="m2b7d3fbrp_callcount" value="1">
-                    </div>
-
-                    <div><input type="hidden" id="m2b7d3form_id" name="m2b7d3form_id" value="1">
-                        <input type="hidden" id="m2b7d3lang" name="m2b7d3lang" value="en_US">
-                        <input type="hidden" id="m2b7d3fbrp_continue" name="m2b7d3fbrp_continue" value="2">
-                        <input type="hidden" id="m2b7d3fbrp_done" name="m2b7d3fbrp_done" value="1">
-                    </div>
-                    <div class="contact-form">
-                        <div data-lang="Enter email address" class="required input-min-height replaceLang"><input type="text" name="m2b7d3fbrp__21" value="" size="25" maxlength="128" onfocus="if(this.value==this.defaultValue) this.value='';" onblur="if(this.value=='') this.value=this.defaultValue;" id="fbrp__21">
-                        </div>
-
-                        <div class="submit" data-lang="SUBSCRIBE"><input class="cms_submit fbsubmit" name="m2b7d3fbrp_submit" id="m2b7d3fbrp_submit" value="SUBSCRIBE" type="submit"></div>
-                    </div>
-                </form>
-                <!-- End FormBuilder Module -->
-
-                <script type="text/javascript">
-                    $(function() {
-                        var langReplace = $(".submit").data("lang");
-                        var langInput = $(".replaceLang").data("lang");
-                        $(".submit input").val(langReplace);
-                        $(".replaceLang input").val(langInput);
-
-                        $(".replaceLang input:text").each(function (){// store default value
-                            var v = this.value;
-
-                            $(this).blur(function (){
-                                // if input is empty, reset value to default
-                                if (this.value.length == 0) this.value = langInput;
-                            }).focus(function (){
-                                // when input is focused, clear its contents
-                                this.value = "";
-                            });
-                        });
-
-                        var inputVal = $("#fbrp__21").val();
-                        var inputCount = inputVal.length;
-
-                        if (inputCount >= 43) {
-                            $("#fbrp__21").css("width", "480px");
-                        }
-                    });
-                </script>
-            </div>
-        </div>
-    </div>
-</section>
 <!-- /content -->
 </main>
 

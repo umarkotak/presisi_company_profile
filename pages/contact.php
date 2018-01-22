@@ -6,7 +6,7 @@
 
 <main class="op-0" style="min-height: calc(100vh - 78px); opacity: 1;">
     <div id="sub-nav">
-        <span class="lastitem">Contact us</span>
+        <span class="lastitem">Contacts</span>
     </div>
     <!-- content -->
     <div>
