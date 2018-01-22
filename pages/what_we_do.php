@@ -109,14 +109,15 @@
             <span style="display:inline-block; width: 50px;"></span>Equipped with an in-depth market knowledge, we are able to put forward innovative and personalized solutions that meets customers’ specific needs, solve problems, and improve efficiency.
           </p>
           <p style="text-align: justify;">
-            <span style="display:inline-block; width: 50px;"></span>Our management service includes but not limited to:
-             The management and maintenance of each individual warehouse property
-             The management of power stations and waste water
-             The maintenance of sprinkler, emergency and security systems
-             Arranging favourable and cost-friendly insurance terms
-             Guaranteeing safe and clean premises
-             Provide clear information on the long-lastingness of different pieces of equipment and how much they cost
-             And more…
+            Our management service includes but not limited to:<br>
+            <span style="display:inline-block; width: 50px;"></span>1. The management and maintenance of each individual warehouse property<br>
+            <span style="display:inline-block; width: 50px;"></span>2. The management of power stations and waste water<br>
+            <span style="display:inline-block; width: 50px;"></span>3. The maintenance of sprinkler, emergency and security systems<br>
+            <span style="display:inline-block; width: 50px;"></span>4. Arranging favourable and cost-friendly insurance terms<br>
+            <span style="display:inline-block; width: 50px;"></span>5. Guaranteeing safe and clean premises<br>
+            <span style="display:inline-block; width: 50px;"></span>6. Provide clear information on the long-lastingness of different pieces of equipment <br>
+            <span style="display:inline-block; width: 70px;"></span>and how much they cost<br>
+            <span style="display:inline-block; width: 50px;"></span>7. And more…<br>
           </p>
           <p style="text-align: justify;">
             <span style="display:inline-block; width: 50px;"></span>We are committed to walk the extra mile to exercise fast response and deliver precise solutions when dealing with any issues. To uphold such commitments, we assigned each of our customers their own Property Manager. By having personal relationships with all our customers, we are capable of providing them with the high standard of individualized services and reliability they expect.
@@ -156,14 +157,14 @@
             <span style="display:inline-block; width: 50px;"></span>Here at Presisi, we invest in lands and properties that are strategically located, and with near access to toll roads, industrial areas and Jakarta’s Central Business District.
           </p>
           <p style="text-align: justify;">
-            <span style="display:inline-block; width: 50px;"></span>Should our customers request for a storage facility in other regions of Indonesia outside of Jakarta, our experts are capable of curating the most strategic locations to build a warehouse. This includes having knowledge on:
-             Locations with the best access to factories, business districts, industrial regions, ports, and airports
-             Issues pertaining to traffic
-             Lands with the potential of becoming an in-demand location in the future
-             The type of buildings that are suitable to build in the areas
-             Planning permissions
-             Whether local authority and society support new development
-             And many more…
+            <span style="display:inline-block; width: 50px;"></span>Should our customers request for a storage facility in other regions of Indonesia outside of Jakarta, our experts are capable of curating the most strategic locations to build a warehouse. This includes having knowledge on: <br>
+            1. Locations with the best access to factories, business districts, industrial regions, ports, and airports<br>
+            2. Issues pertaining to traffic<br>
+            3. Lands with the potential of becoming an in-demand location in the future<br>
+            4. The type of buildings that are suitable to build in the areas<br>
+            5. Planning permissions<br>
+            6. Whether local authority and society support new development<br>
+            7. And many more…<br>
           </p>
           <p style="text-align: justify;">
             <span style="display:inline-block; width: 50px;"></span>We understand the rapid transformation in technology, and that is why in addition to acquiring properties in prime locations, we also invest in the latest innovation to improve productivity, increase utilization and reduce cost in a warehouse operation.

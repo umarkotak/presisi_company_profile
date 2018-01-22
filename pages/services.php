@@ -41,25 +41,25 @@
 
       <div style="">
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
-          <a href="#" class="btn btn-default">Considerate</a>
+          <a href="#build_to_suit" class="btn btn-default">Considerate</a>
           <p style="text-align: justify;">
             We take into consideration your company’s unique requirements in order to fulfil your corporate and operational needs.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-          <a href="#" class="btn btn-default">Long term lease</a>
+          <a href="#build_to_suit" class="btn btn-default">Long term lease</a>
           <p style="text-align: justify;">
             When opting for a Build-to-Suit service, you are committed to a long-term lease, and reap the benefit of long-term reliability with respect to location and rental rates.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
-          <a href="#" class="btn btn-default">Responsible</a>
+          <a href="#build_to_suit" class="btn btn-default">Responsible</a>
           <p style="text-align: justify;">
             We are responsible for bearing the capital expenditure that comes with developing and owning of the building.
           </p>
         </div>
         <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
-          <a href="#" class="btn btn-default">Secure</a>
+          <a href="#build_to_suit" class="btn btn-default">Secure</a>
           <p style="text-align: justify;">
             Whether it’s security or accessibility, you can maintain control and authority over the asset management of the property.
           </p>
