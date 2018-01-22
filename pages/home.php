@@ -87,7 +87,7 @@
           <a href="?page=what_we_do&we=manage"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
         </li>
         <li data-src="images/we_image4.jpg">
-          <a href="?page=what_we_do&we=inves"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
+          <a href="?page=what_we_do&we=invest"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
         </li>
       </ul>
     </div>
@@ -114,11 +114,11 @@
 
 <a href="#" id="slide-top" style="display:none;"><i class="fa fa-arrow-circle-o-up" aria-hidden="true" style="font-size: 4.0rem;"></i></a>
 
-<div id="cookies-rules-box">
+<!-- <div id="cookies-rules-box">
   This website uses cookies for better performance. By staying on this website and clicking on the “Confirm” button you agree with their use. More information
   <a href="http://www.google.com/intl/en/policies/technologies/cookies/" target="_blank" id="cookies-more">here.</a>
   <a id="cookies-rules-box-btn" href="#">CONFIRM</a>
-</div>
+</div> -->
 
 <!-- SPLASH LOGO -->
 <!-- <div id="loader"></div> -->
