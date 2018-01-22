@@ -46,19 +46,19 @@
         <img src="images/company_icon_4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
       </div>
       <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        <a href="" class="btn btn-default">Our story</a>
+        <a href="#anchor-slide" class="btn btn-default">Our story</a>
       </div>
       <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        <a href="" class="btn btn-default">People</a>
+        <a href="#anchor-slide" class="btn btn-default">People</a>
       </div>
       <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        <a href="" class="btn btn-default">Awards</a>
+        <a href="#anchor-slide" class="btn btn-default">Awards</a>
       </div>
       <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        <a href="" class="btn btn-default">Careers</a>
+        <a href="#anchor-slide" class="btn btn-default">Careers</a>
       </div>
       <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
-        <a href="" class="btn btn-default">Contacts</a>
+        <a href="#anchor-slide" class="btn btn-default">Contacts</a>
       </div>
     </div>
   </section>
