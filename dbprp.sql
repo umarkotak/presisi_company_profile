@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 22, 2018 at 01:57 PM
--- Server version: 10.1.29-MariaDB
--- PHP Version: 7.2.0
+-- Generation Time: Jan 26, 2018 at 04:29 PM
+-- Server version: 10.1.28-MariaDB
+-- PHP Version: 7.1.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -132,6 +132,26 @@ CREATE TABLE `sixth_page` (
 INSERT INTO `sixth_page` (`sxp_id`, `office_name`, `office_address`, `sxp_description`, `office_phone`, `office_fax`, `office_email`) VALUES
 (1, 'PT. Presisi Rekayasa Persada', 'Jl. Sultan Iskandar Muda, Kebayoran Lama, Jakarta Selatan 12240, Indonesia', 'Gandaria 8 Office 3rd Floor Unit C', '+62 21 8378 1718', '+62 21 8378 1718', 'info@presisirekayasa.com');
 
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `third_page`
+--
+
+CREATE TABLE `third_page` (
+  `tp_id` int(3) NOT NULL,
+  `tp_title` varchar(50) NOT NULL,
+  `tp_description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `third_page`
+--
+
+INSERT INTO `third_page` (`tp_id`, `tp_title`, `tp_description`) VALUES
+(1, 'SERVICES1', 'Our company’s name, Presisi Rekayasa Persada, is an Indonesian translation for precision engineering. Ever since its establishment in 2006, Presisi Rekayasa continuously operates up to its name with “PRECISION” being the underlying value we uphold in our company culture. Our key value is applied to all our work, starting from the initial planning to actual execution, guaranteeing precision in all work and aspects to achieve the best performance in quality, time, and cost.'),
+(2, 'SERVICES2', 'Our vision has also been very clear from the start: to be the leader in warehouse, logistics, and supply chain solutions provider. This is achieved through having modern and superior warehouses equipped with the latest specifications, finest sustainable materials, and advanced innovations that corresponded with our customers’ requirements. Our strategy is further fortified by our position as being one of the main providers of innovative logistics and supply-chain services in Indonesia—allowing for optimal solutions in all aspects.');
+
 --
 -- Indexes for dumped tables
 --
@@ -167,6 +187,12 @@ ALTER TABLE `sixth_page`
   ADD PRIMARY KEY (`sxp_id`);
 
 --
+-- Indexes for table `third_page`
+--
+ALTER TABLE `third_page`
+  ADD PRIMARY KEY (`tp_id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -199,6 +225,12 @@ ALTER TABLE `second_page`
 --
 ALTER TABLE `sixth_page`
   MODIFY `sxp_id` int(2) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `third_page`
+--
+ALTER TABLE `third_page`
+  MODIFY `tp_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
