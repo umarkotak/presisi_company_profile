@@ -23,14 +23,14 @@
           </div>
         </li>
       </ul>
-      <a href="#" id="hp-arrow" class="hp-arrow"><img src="https://c.p3parks.com/images/design/2016/hp-arrow.png"></a>
+      <a href="#" id="hp-arrow" class="hp-arrow"><img src="images/hp-arrow.png"></a>
     </div>
   </section>
 
   <section class="container p-center" style="border-bottom: solid 1px #a30836;" id="anchor-slide">
     <div class="row m-b-50">
       <div class="col-xs-12 m-b-80 xs-m-b-0">
-        <a href="" class="h2">Company</a>
+        <a href="#anchor-slide" class="h2">Company</a>
         <p>Presisi owns, constructs, develops, and manages sustainable logistics facilities and provides innovative supply chain solutions across Indonesia.</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25" id="counter-visiblity-check">
@@ -63,10 +63,10 @@
     </div>
   </section>
 
-  <section class="container m-t-80">
+  <section class="container m-t-80" id="what_we_do">
     <div class="row">
       <div class="col-xs-12 p-center">
-        <a href="https://www.p3parks.com/what-we-do" class="h2">What we do</a>
+        <a href="#what_we_do" class="h2">What we do</a>
         <p>At Presisi, we do not just build storage facilities, we collaborate with our clients to help them unlock their competitive advantages through our high quality buildings, and efficient logistics and supply chain services.</p>
       </div>
     </div>
@@ -93,7 +93,7 @@
     </div>
   </section>
 
-  <form id="m2b7d3moduleform_1" method="post" action="https://www.p3parks.com/" class="cms_form" enctype="multipart/form-data">
+  <form id="m2b7d3moduleform_1" method="post" action="" class="cms_form" enctype="multipart/form-data">
     <div class="hidden">
       <input type="hidden" name="mact" value="FormBuilder,m2b7d3,default,1" />
       <input type="hidden" name="m2b7d3fbrp_callcount" value="1" />
