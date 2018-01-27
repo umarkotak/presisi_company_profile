@@ -4985,7 +4985,7 @@ a,input{
     margin:0 auto;
     /*background-color: #0073e6;*/
     background-color:transparent;
-    background-image:url('images/button-red.svg');
+    background-image:url('http://localhost/presisi_company_profile/images/button-blue.svg');
     background-size:100% 100%;
     text-transform:uppercase;
     color:#fff;
@@ -4993,7 +4993,7 @@ a,input{
     height:auto
 }
 .btn-default:focus,.btn-default:active,.btn-default:hover{
-    background-image:url('images/button-blue.svg');
+    background-image:url('http://localhost/presisi_company_profile/images/button-red.svg');
     color:#fff !important;
     background-color:transparent
 }
