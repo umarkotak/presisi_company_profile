@@ -30,17 +30,17 @@ function getDescription($conn, $title){
       </div>
 
       <div style="">
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
           <a href="#warehouse_service" class="btn btn-default">Warehouse Service</a>
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
           <a href="#build_to_suit" class="btn btn-default">Build to Suit Development</a>
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
         </div>
       </div>
   </section>
@@ -58,7 +58,7 @@ function getDescription($conn, $title){
       </div>
 
       <div style="">
-        <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
           <a href="#build_to_suit" class="btn btn-default">Considerate</a>
           <p style="text-align: justify;">
             <?php
@@ -67,7 +67,7 @@ function getDescription($conn, $title){
             ?>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-one-fifth m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
           <a href="#build_to_suit" class="btn btn-default">Long term lease</a>
           <p style="text-align: justify;">
             <?php
@@ -76,7 +76,7 @@ function getDescription($conn, $title){
             ?>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
           <a href="#build_to_suit" class="btn btn-default">Responsible</a>
           <p style="text-align: justify;">
             <?php
@@ -85,7 +85,7 @@ function getDescription($conn, $title){
             ?>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-4 col-lg-3 m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
           <a href="#build_to_suit" class="btn btn-default">Secure</a>
           <p style="text-align: justify;">
             <?php
