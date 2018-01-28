@@ -1,4 +1,4 @@
-<?php  
+<?php
 function getDescription($conn, $title){
     $sql = $conn->prepare("SELECT tp_description FROM third_page WHERE tp_title=$title LIMIT 1");
     $sql->execute();
