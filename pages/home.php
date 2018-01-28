@@ -13,7 +13,7 @@
         <li data-src="images/slide2.jpg">
           <div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 75%; border-radius: 10px;">
             <b>Experience our warehouse</b>
-            <a href="?page=services#warehouse_service" class="row col-xs-4 btn btn-default">Experience Now</a>
+            <a href="?page=services#warehouse_service" class="btn btn-default">Experience Now</a>
           </div>
         </li>
         <li data-src="images/slide3.jpg">

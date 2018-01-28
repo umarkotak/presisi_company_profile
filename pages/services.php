@@ -94,7 +94,7 @@
           Along with storage facility, we also provide warehouse resources such as:
         </p>
 
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <p style="text-align: justify;">
             <ul style="text-align: left;">
               <li>Manpower</li>
@@ -117,7 +117,7 @@
           </p>
         </div>
 
-        <div class="col-md-6">
+        <div class="col-xs-6">
           <p style="text-align: justify;">
             <ul style="text-align: left;">
               <li>Storage equipment
@@ -140,8 +140,21 @@
         </div>
       </div>
 
+      <div class="col-md-3">
+        <img src="images/prp/DJI_0006.MOV.Still004.jpg" style="border-radius: 5px;">
+      </div>
+      <div class="col-md-3">
+        <img src="images/prp/DJI_0006.MOV.Still019.jpg" style="border-radius: 5px;">
+      </div>
+      <div class="col-md-3">
+        <img src="images/prp/DJI_0006.MOV.Still012.jpg" style="border-radius: 5px;">
+      </div>
+      <div class="col-md-3">
+        <img src="images/prp/DJI_0006.MOV.Still008.jpg" style="border-radius: 5px;">
+      </div>
+
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="">
-        <h3 style="text-align: right;">Warehouse Capacity</h3>
+        <h3 style="text-align: right; margin-top: 15px;">Warehouse Capacity</h3>
         <p style="text-align: justify;">
           Facility location: Delta Silikon 2. Lippo Cikarang Industrial Estate, Bekasi, West Java <br>
           Our storage facility has an indoor storage area of 20,000 m2, an outdoor storage area of 5,000 m2 and was built upon a land of over 3.3 Ha. The facility is equipped with 24 ports and has a height of over 15 metres which allowed for clear air circulation. The environmental friendly skylight reduced the need for electricity and generators are available to supply self-supportive power when needed.
