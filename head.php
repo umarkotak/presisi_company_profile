@@ -13,8 +13,8 @@
   <link rel="stylesheet" type="text/css" href="style/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style/css1.css" />
   <link rel="stylesheet" type="text/css" href="style/css2.css" />
-  <link rel="stylesheet" type="text/css" href="style/custom-font.css">
-  <!-- <link rel="stylesheet" type="text/css" href="style/presisi.css"> -->
+  <!-- <link rel="stylesheet" type="text/css" href="style/custom-font.css"> -->
+  <link rel="stylesheet" type="text/css" href="style/presisi.css">
 
   <script type="text/javascript" src="style/js1.js"></script>
 <!--   <script type="text/javascript">

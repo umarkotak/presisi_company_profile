@@ -27,7 +27,7 @@
     </div>
   </section>
 
-  <section class="container p-center" style="border-bottom: solid 1px #a30836;" id="anchor-slide">
+  <section class="container p-center" style="border-bottom: solid 1px #002080;" id="anchor-slide">
     <div class="row m-b-50">
       <div class="col-xs-12 m-b-80 xs-m-b-0">
         <a href="#anchor-slide" class="h2">Company</a>

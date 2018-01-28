@@ -4997,7 +4997,7 @@ a,input{
     background-color: #ffd633;
     /*background-color:transparent;*/
     /*background-image:url('http://localhost/presisi_company_profile/images/button-red.svg');*/
-    color:#fff !important;
+    color:#000000 !important;
 }
 .btn-default:active:focus{
     background-color:transparent
@@ -5277,17 +5277,17 @@ table td{
 }
 .bx-prev{
     left:64px;
-    background:url(https://c.p3parks.com/images/design/2016/slider_left.png) top left no-repeat
+    background:url(http://localhost/presisi_company_profile/images/slider_left.png) top left no-repeat
 }
 .bx-prev:hover{
-    background:url(https://c.p3parks.com/images/design/2016/slider_left_active.png) top left no-repeat
+    background:url(http://localhost/presisi_company_profile/images/slider_left_active.png) top left no-repeat
 }
 .bx-next{
     right:64px;
-    background:url(https://c.p3parks.com/images/design/2016/slider_right.png) top left no-repeat
+    background:url(http://localhost/presisi_company_profile/images/slider_right.png) top left no-repeat
 }
 .bx-next:hover{
-    background:url(https://c.p3parks.com/images/design/2016/slider_right_active.png) top left no-repeat
+    background:url(http://localhost/presisi_company_profile/images/slider_right_active.png) top left no-repeat
 }
 .bx-wrapper-text{
     margin:25px auto !important;
