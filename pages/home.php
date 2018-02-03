@@ -63,6 +63,16 @@
     </div>
   </section>
 
+  <section class="container-fluid what-we-do m-t-30" style="border-bottom: solid 1px #a30836;">
+    <div class="row">
+      <div class="col-sm-12">
+        <iframe class="" style="width: 100%; height: 500px;"
+          src="https://www.youtube.com/embed/kmD5aAup_1U">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
   <section class="container m-t-80" id="what_we_do">
     <div class="row">
       <div class="col-xs-12 p-center">
