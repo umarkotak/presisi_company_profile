@@ -34,16 +34,16 @@
         <p>Presisi owns, constructs, develops, and manages sustainable logistics facilities and provides innovative supply chain solutions across Indonesia.</p>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25" id="counter-visiblity-check">
-        <img src="images/company_icon_1.png"><!-- <h3><strong><span class="counter counter-done">4.1</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of gross lettable area</h6> -->
+        <img src="images/home-1.png"><!-- <h3><strong><span class="counter counter-done">4.1</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of gross lettable area</h6> -->
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-        <img src="images/company_icon_2.png"><!-- <h3><strong><span class="counter counter-done">1.8</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of space to be developed</h6> -->
+        <img src="images/home-2.png"><!-- <h3><strong><span class="counter counter-done">1.8</span>M</strong> <span class="t-t-lw">m</span><sup>2</sup></h3><h6>of space to be developed</h6> -->
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-        <img src="images/company_icon_3.png"><!-- <h3>over <strong><span class="counter counter-done">340</span></strong></h3><h6>customers</h6> -->
+        <img src="images/home-3.png"><!-- <h3>over <strong><span class="counter counter-done">340</span></strong></h3><h6>customers</h6> -->
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-        <img src="images/company_icon_4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
+        <img src="images/home-4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
       </div>
       <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
         <a href="?page=company" class="btn btn-default">Our story</a>

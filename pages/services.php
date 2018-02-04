@@ -117,6 +117,7 @@ function getDescription($conn, $title){
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-bottom: solid 1px #fcb6cb;">
         <h3 style="text-align: left;"><i class="fa fa-cubes"></i> Warehouse Rental</h3>
         <p style="text-align: justify;">
+          <img src="images/Animacion01.gif" style="float: left; width: 200px;">
           <?php
               $title = $conn->quote("WAREHOUSE RENTAL");
               echo getDescription($conn, $title);
@@ -162,6 +163,7 @@ function getDescription($conn, $title){
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="">
         <h3 style="text-align: right; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3>
         <p style="text-align: justify;">
+          <img src="images/Animacion02.gif" style="float: right; width: 300px; margin-left: 5px;">
           <?php
               $title = $conn->quote("WAREHOUSE CAPACITY");
               echo getDescription($conn, $title);
