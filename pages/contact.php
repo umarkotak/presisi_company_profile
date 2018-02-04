@@ -92,7 +92,8 @@
                             </div>
                             <div class="row">
                                 <div>
-                                    <input type="submit" value="Send Message">
+                                    <!-- <input type="submit" value="Send Message" class="btn btn-default"> -->
+                                    <button type="submit" class="btn btn-default">Send Message</button>
                                 </div>
                             </div>
                         </div>
