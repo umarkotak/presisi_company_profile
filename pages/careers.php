@@ -44,3 +44,4 @@ function getDescription($conn, $title){
     </section>
   <!-- /content -->
 </main>
+<a href="#" id="slide-top" style="display:none;"><i class="fa fa-arrow-circle-o-up" aria-hidden="true" style="font-size: 4.0rem;"></i></a>

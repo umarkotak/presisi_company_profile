@@ -26,12 +26,11 @@ function getDescription($conn, $title){
 
         <div class="container link-box-bottom">
           <div class="row">
-            <div class="col-xs-12 t-center company-buttons">
-              <div class="col-xs-12 col-md-one-fifth"> <a href="#anchor-slide" title="Who we are" class="btn btn-default">Who we are</a></div>
-              <div class="col-xs-12 col-md-one-fifth"> <a href="#vision" title="Vision & Mission" class="btn btn-default">Vision & Mission</a></div>
-              <div class="col-xs-12 col-md-one-fifth"> <a href="#ourvalues" title="Our values" class="btn btn-default">Our values</a></div>
-              <div class="col-xs-12 col-md-one-fifth"> <a href="#legality" title="Legality" class="btn btn-default">Legality</a></div>
-              <div class="col-xs-12 col-md-one-fifth"> <a href="#awards" title="Legality" class="btn btn-default">Awards</a></div>
+            <div class="col-md-12 t-center company-buttons">
+              <div class="col-md-12 col-lg-3"> <a href="#anchor-slide" title="Who we are" class="btn btn-default">Who we are</a></div>
+              <div class="col-md-12 col-lg-3"> <a href="#vision" title="Vision & Mission" class="btn btn-default">Vision & Mission</a></div>
+              <div class="col-md-12 col-lg-3"> <a href="#ourvalues" title="Our values" class="btn btn-default">Our values</a></div>
+              <div class="col-md-12 col-lg-3"> <a href="#legality" title="Legality" class="btn btn-default">Legality</a></div>
             </div>
             <a class="company-arrow" href="#" id="hp-arrow"><img src="https://c.p3parks.com/images/design/2016/hp-arrow.png" width="80" height="41" alt="[design/2016/hp-arrow.png]"></a></div>
           </div>
@@ -114,7 +113,8 @@ function getDescription($conn, $title){
 
     <!-- /content -->
   </main>
-
+  <a href="#" id="slide-top" style="display:none;"><i class="fa fa-arrow-circle-o-up" aria-hidden="true" style="font-size: 4.0rem;"></i></a>
+  
   <script>
     $(document).ready(function(){
         // Add smooth scrolling to all links
