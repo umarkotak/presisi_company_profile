@@ -13,15 +13,15 @@ function getDescription($conn, $title){
       <div class="col-xs-12 m-b-80 xs-m-b-0">
         <a href="" class="h2">Services</a>
         <p style="text-align: justify;">
-          <img src="images/company_icon_1.png" style="float: left; height: 120px; margin: 5px;">
+          <img src="images/Animacion01.gif" style="float: left; height: 185px; margin: 5px;">
           <?php
               $title = $conn->quote("SERVICES1");
               echo getDescription($conn, $title);
           ?>
         </p>
-        <br>
+        <br><br>
         <p style="text-align: justify;">
-          <img src="images/company_icon_3.png" style="float: right; margin: 5px;">
+          <img src="images/Animacion04.gif" style="float: right; height: 185px; margin: 5px;">
           <?php
               $title = $conn->quote("SERVICES2");
               echo getDescription($conn, $title);
@@ -193,6 +193,7 @@ function getDescription($conn, $title){
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;">
         <h3 style="text-align: left;"><i class="fa fa-pie-chart"></i> Distribution Service</h3>
         <p style="text-align: justify;">
+          <img src="images/Animacion09.gif" style="float: right; width: 300px; margin-left: 5px;">
           <?php
               $title = $conn->quote("DISTRIBUTION SERVICE");
               echo getDescription($conn, $title);

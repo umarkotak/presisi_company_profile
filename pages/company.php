@@ -14,13 +14,13 @@ function getDescription($conn, $title){
   <!-- content -->
   <section class="container-fluid fade-hidden fade-visible animated fadeIn full-visible">
     <div class="row">
-      <div class="image-cover loaded" data-src="http://localhost/presisi_company_profile/images/company_1.png" style="max-height: 537px; background: url(&quot;http://localhost/presisi_company_profile/images/company_1.png&quot;);">
+      <div class="image-cover loaded" data-src="http://localhost/presisi_company_profile/images/slide1.jpg" style="max-height: 537px; background: url(&quot;http://localhost/presisi_company_profile/images/slide1.jpg&quot;);">
         <div class="filter"></div>
 
         <div class="center-box">
           <a href="#" title="Our Story" class="h1">Our Company</a>
           <p>
-            Lorem ipsum
+            A warehouse is more than just a storage facility
           </p>
         </div>
 
@@ -44,6 +44,7 @@ function getDescription($conn, $title){
         <div class="col-xs-12 m-t-50 t-center">
           <a href="#anchor-slide" title="Who we are" class="h2">Who we are</a>
           <p style="text-align: justify;">
+            <!-- <img src="images/Animacion08.gif" style="float: right; height: 200px; border-radius: 10px;"> -->
             <?php
             $title = $conn->quote("WHO WE ARE");
             echo getDescription($conn, $title);
