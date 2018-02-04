@@ -71,18 +71,18 @@
                     <form action="?action=sendmail" method="POST">
                         <div class="col-xs-12 col-sm-7">
                             <div class="row">
-                                <div class="required input-min-height replaceLang col-xs-12">
-                                    <input type="text" name="full_name" value="" size="50" maxlength="128" required placeholder="ex: John Doe">
+                                <div class="col-xs-12">
+                                    <input type="text" name="full_name" value="" size="50" maxlength="128" required placeholder="ex: John Doe" class="required input-min-height replaceLang col-xs-12">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="required input-min-height replaceLang col-xs-12">
-                                    <input type="text" name="email" value="" size="50" maxlength="128" required placeholder="ex: john@example.com">
+                                <div class="col-xs-12">
+                                    <input type="text" name="email" value="" size="50" maxlength="128" required placeholder="ex: john@example.com" class="required input-min-height replaceLang col-xs-12">
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="required input-min-height replaceLang col-xs-12">
-                                    <input type="text" name="phone" value="" size="50" maxlength="12" placeholder="ex: 085123456789">
+                                <div class="col-xs-12">
+                                    <input type="text" name="phone" value="" size="50" maxlength="12" placeholder="ex: 085123456789" class="required input-min-height replaceLang col-xs-12">
                                 </div>
                             </div>
                             <div class="row">
