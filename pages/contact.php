@@ -68,7 +68,7 @@
                         <p class="t-blue small">Phone</p>
                         <p class="t-blue small">Message<span style="color: red;"><strong> *</strong></span></p>
                     </div>
-                    <form>
+                    <form action="?action=sendmail" method="POST">
                         <div class="col-xs-12 col-sm-7">
                             <div class="row">
                                 <div class="required input-min-height replaceLang col-xs-12">

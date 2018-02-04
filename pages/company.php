@@ -1,4 +1,4 @@
-<?php  
+<?php
 function getDescription($conn, $title){
     $sql = $conn->prepare("SELECT sp_description FROM second_page WHERE sp_title=$title LIMIT 1");
     $sql->execute();
@@ -39,47 +39,47 @@ function getDescription($conn, $title){
         </div>
 </section>
 
-<section class="container p-center fade-hidden" id="anchor-slide">
+<section class="container p-center fade-hidden" id="anchor-slide" style="border-bottom: solid 1px #b3d9ff;">
     <div class="row">
-        <div class="col-xs-12 m-t-50 t-center">
-            <a href="#anchor-slide" title="Who we are" class="h2">Who we are</a>
-            <p style="text-align: justify;">
-              <?php
-              $title = $conn->quote("WHO WE ARE");
-              echo getDescription($conn, $title);
-              ?>
-          </p>
+      <div class="col-xs-12 m-t-50 t-center">
+        <a href="#anchor-slide" title="Who we are" class="h2">Who we are</a>
+        <p style="text-align: justify;">
+          <?php
+          $title = $conn->quote("WHO WE ARE");
+          echo getDescription($conn, $title);
+          ?>
+        </p>
       </div>
   </div>
 </section>
 
-<section class="container p-center fade-hidden" id="vision">
-    <div class="row">
-        <div class="col-xs-12 m-t-50 t-center">
-            <a href="#vision" title="Vision" class="h2">Vision</a>
-            <p>
-              <?php
-              $title = $conn->quote("VISION");
-              echo getDescription($conn, $title);
-              ?>
-          </p>
-      </div>
+<section class="container p-center fade-hidden" id="vision" style="border-bottom: solid 1px #b3d9ff;">
+  <div class="row">
+    <div class="col-xs-6 m-t-50 t-center">
+      <a href="#vision" title="Vision" class="h2"><i class="fa fa-dot-circle-o"></i>Vision</a>
+      <p>
+        <?php
+        $title = $conn->quote("VISION");
+        echo getDescription($conn, $title);
+        ?>
+      </p>
+    </div>
+
+    <div class="col-xs-6 m-t-50 t-center" id="mission">
+      <a href="#vision" title="Vision" class="h2"><i class="fa fa-check-circle-o"></i>Mission</a>
+      <p>
+        <?php
+        $title = $conn->quote("MISSION");
+        echo getDescription($conn, $title);
+        ?>
+      </p>
+    </div>
   </div>
+
+  <br><br>
 </section>
 
-<section class="container p-center fade-hidden" id="mission">
-    <div class="row">
-        <div class="col-xs-12 m-t-50 t-center">
-            <a href="#mission" title="Mission" class="h2">Mission</a>
-            <p>
-              <?php
-              $title = $conn->quote("MISSION");
-              echo getDescription($conn, $title);
-              ?>
-          </p>
-      </div>
-  </div>
-</section>
+
 
 <section class="container p-center fade-hidden" id="ourvalues">
     <div class="row">
@@ -99,7 +99,7 @@ function getDescription($conn, $title){
     <div class="row">
         <div class="col-xs-12 m-t-50 t-center">
             <a href="#legality" title="Legality" class="h2">Legality</a>
-            <p style="text-align: justify;">
+            <p style="text-align: center;">
               <?php
               $title = $conn->quote("LEGALITY");
               echo getDescription($conn, $title);
@@ -107,43 +107,7 @@ function getDescription($conn, $title){
           </p>
       </div>
   </div>
-</section>
-
-<!-- <section class="container-fluid p-0 m-t-20 fade-hidden">
-    <div class="row">
-        <div class="col-xs-12">
-        </div>
-    </div>
-</section> -->
-
-<section class="container hp-awards p-center fade-hidden" id="awards">
-    <div class="row">
-        <div class="col-xs-12 m-b-35 m-t-50 t-center">
-            <a href="#awards" title="Awards" class="h2">Awards</a>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            </p>
-        </div>
-        <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="images/no_available.png">
-        </div>
-        <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="images/no_available.png">
-        </div>
-        <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="images/no_available.png">
-        </div>
-        <div class="col-xs-6 col-md-3 m-b-10">
-            <img src="images/no_available.png">
-        </div>
-        <div class="col-xs-12 m-t-55 t-center"> <a href="#" title="Awards" class="btn btn-default">SHOW ALL</a></div>
-        <!-- <div class="col-xs-12 m-t-55 t-center"> <a href="https://www.p3parks.com/en/company/awards/" title="Awards" class="btn btn-default">SHOW ALL</a></div> -->
-    </div>
+  <br><br>
 </section>
 
 <!-- /content -->

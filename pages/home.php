@@ -45,25 +45,22 @@
       <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
         <img src="images/company_icon_4.png"><!-- <h6>Assets in</h6><h3><strong><span class="counter counter-done">11</span></strong> countries</h3> -->
       </div>
-      <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-        <a href="#anchor-slide" class="btn btn-default">Our story</a>
+      <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
+        <a href="?page=company" class="btn btn-default">Our story</a>
       </div>
-      <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-        <a href="#anchor-slide" class="btn btn-default">People</a>
+      <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
+        <a href="?page=services" class="btn btn-default">Services</a>
       </div>
-      <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-        <a href="#anchor-slide" class="btn btn-default">Awards</a>
+      <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
+        <a href="?page=careers" class="btn btn-default">Careers</a>
       </div>
-      <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-        <a href="#anchor-slide" class="btn btn-default">Careers</a>
-      </div>
-      <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-        <a href="#anchor-slide" class="btn btn-default">Contacts</a>
+      <div class="col-xs-12 col-sm-12 col-lg-3 m-t-80">
+        <a href="?page=contact" class="btn btn-default">Contacts</a>
       </div>
     </div>
   </section>
 
-  <section class="container-fluid what-we-do m-t-30" style="border-bottom: solid 1px #a30836;">
+  <section class="container-fluid what-we-do m-t-30" style="border-bottom: solid 1px #002080;">
     <div class="row">
       <div class="col-sm-12">
         <iframe class="" style="width: 100%; height: 500px;"

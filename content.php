@@ -12,9 +12,15 @@ if (isset($_GET['page'])) {
 
   else                                          { include "pages/notfound.php"; }
 
+} else if (isset($_GET['action'])) {
+
+  $action = $_GET['action'];
+  if ($action == 'sendmail')                   { include "action/sendmail.php"; }
+
 } else {
   // header("Location: ?page=home");
   $_GET['page'] = "home";
   include "pages/home.php";
 }
+
 ?>

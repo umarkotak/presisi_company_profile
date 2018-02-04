@@ -115,7 +115,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-bottom: solid 1px #fcb6cb;">
-        <h3 style="text-align: left;">Warehouse Rental</h3>
+        <h3 style="text-align: left;"><i class="fa fa-cubes"></i> Warehouse Rental</h3>
         <p style="text-align: justify;">
           <?php
               $title = $conn->quote("WAREHOUSE RENTAL");
@@ -160,7 +160,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="">
-        <h3 style="text-align: right; margin-top: 15px;">Warehouse Capacity</h3>
+        <h3 style="text-align: right; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3>
         <p style="text-align: justify;">
           <?php
               $title = $conn->quote("WAREHOUSE CAPACITY");
@@ -189,7 +189,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;">
-        <h3 style="text-align: left;">Distribution Service</h3>
+        <h3 style="text-align: left;"><i class="fa fa-pie-chart"></i> Distribution Service</h3>
         <p style="text-align: justify;">
           <?php
               $title = $conn->quote("DISTRIBUTION SERVICE");
@@ -199,7 +199,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;" id="supply">
-        <h3 style="text-align: right;">Supply Chain Management</h3>
+        <h3 style="text-align: right;"><i class="fa fa-chain"></i> Supply Chain Management</h3>
 
         <br>
         <div>
