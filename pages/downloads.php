@@ -23,7 +23,7 @@
 
 
                 <div class="row">
-                    <div class="col-xs-12 m-t-50 t-center">
+                    <div class="col-xs-12 m-t-50 t-center p-center">
                         <p style="text-align: justify;">
                             <?php
                             echo $data['ffp_description'];
