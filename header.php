@@ -12,7 +12,7 @@ function aktif($page){
 <header class="container-fluid op-0" style="opacity: 1;">
   <div class="row">
     <div class="col-xs-12">
-      <a href="" id="btn-icon-home"><img src="images/logo-fix.png" style=""></a>
+      <a href="?page=home" id="btn-icon-home"><img src="images/logo-fix.png" style=""></a>
 
       <div class="horizontal-menu">
         <ul id="main-menu">
