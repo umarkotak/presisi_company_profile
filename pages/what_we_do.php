@@ -7,7 +7,7 @@
     <br>
 
     <section class="container-fluid what-we-do m-t-30">
-      <div class="row">
+      <!-- <div class="row">
         <ul class="slider-image medium">
           <li style="background: url(images/we_image1.jpg);" class="loaded">
             <a href="?page=what_we_do&we=build"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;">
@@ -15,6 +15,18 @@
               <p>We build all of our warehouses like you would <br> build your own home... with passion! <br> Our customers are the lifeblood of our organization.</p></div></a>
           </li>
         </ul>
+      </div> -->
+
+      <div class="col-xs-12">
+        <a href="?page=what_we_do&we=build" class="we-manage">
+          <div class="filter"></div>
+          <div data-bg="images/we_image1.jpg" class="about-img" style="background-image: url(&quot;images/we_image1.jpg&quot;);">
+            <div class="center-box-mob">
+              <div class="dot-red"></div> <h2 class="h2-white">WE BUILD</h2>
+              <p>Our customers are the lifeblood of our organization.</p>
+            </div>
+          </div>
+        </a>
       </div>
 
       <div class="row">
@@ -23,16 +35,16 @@
         </div>
         <div class="col-md-8">
           <p style="text-align: justify;">
-            <span style="display:inline-block; width: 50px;"></span>Presisi adopts a customer-focused culture. We bend-over-backwards to make sure our facilities exceed our customers’ needs and expectations. Part of the process of providing a high-quality building for our customers is by listening to their needs.
+            Presisi adopts a customer-focused culture. We bend-over-backwards to make sure our facilities exceed our customers’ needs and expectations. Part of the process of providing a high-quality building for our customers is by listening to their needs.
           </p>
           <p style="text-align: justify;">
-            <span style="display:inline-block; width: 50px;"></span>When developing a new facility for our customers, our experienced team collaborate with our clients from the sourcing of the land through the construction, and ultimately the handover of the building. Our Build-to-Suit development service allow our customers to have a customized building that meet their specific requirements down to the last detail. In the process of designing the premise, our customers can rely on our high level of attentiveness to build an efficient, fully-optimized, and personalized warehouse facility. We then obtain a planning and building permission prior to the actual construction, and deliver the finished premise according to the strict budget and schedule.
+            When developing a new facility for our customers, our experienced team collaborate with our clients from the sourcing of the land through the construction, and ultimately the handover of the building. Our Build-to-Suit development service allow our customers to have a customized building that meet their specific requirements down to the last detail. In the process of designing the premise, our customers can rely on our high level of attentiveness to build an efficient, fully-optimized, and personalized warehouse facility. We then obtain a planning and building permission prior to the actual construction, and deliver the finished premise according to the strict budget and schedule.
           </p>
           <p style="text-align: justify;">
-            <span style="display:inline-block; width: 50px;"></span>In addition to our Build-to-Suit development service, we also offer readily-available storage facilities in prime locations throughout Indonesia.
+            In addition to our Build-to-Suit development service, we also offer readily-available storage facilities in prime locations throughout Indonesia.
           </p>
           <p style="text-align: justify;">
-            <span style="display:inline-block; width: 50px;"></span>As a valued business partner, our customers can trust Presisi to deliver high-spec buildings they need in prime locations in a timely and cost-friendly manner.
+            As a valued business partner, our customers can trust Presisi to deliver high-spec buildings they need in prime locations in a timely and cost-friendly manner.
           </p>
         </div>
         <div class="col-md-2">
@@ -197,7 +209,7 @@
     </div>
   </section>
 
-  <form id="m2b7d3moduleform_1" method="post" action="https://www.p3parks.com/" class="cms_form" enctype="multipart/form-data">
+  <form id="" method="" action="" class="cms_form" enctype="">
     <div class="hidden">
       <input type="hidden" name="mact" value="FormBuilder,m2b7d3,default,1" />
       <input type="hidden" name="m2b7d3fbrp_callcount" value="1" />
@@ -217,53 +229,3 @@
 </main>
 
 <a href="#" id="slide-top" style="display:none;"><i class="fa fa-arrow-circle-o-up" aria-hidden="true" style="font-size: 4.0rem;"></i></a>
-
-<script type="text/javascript">
-  function fbht(htid)
-  {
-    var fbhtc=document.getElementById(htid);
-    if (fbhtc)
-    {
-      if (fbhtc.style.display == 'none')
-      {
-        fbhtc.style.display = 'inline';
-      }
-      else
-      {
-        fbhtc.style.display = 'none';
-      }
-    }
-  }
-</script>
-
-<script type="text/javascript">
-  $(function() {
-  var langReplace = $(".submit").data("lang");
-  var langInput = $(".replaceLang").data("lang");
-  $(".submit input").val(langReplace);
-  $(".replaceLang input").val(langInput);
-
-  $(".replaceLang input:text").each(function ()
-  {
-  // store default value
-  var v = this.value;
-
-  $(this).blur(function ()
-  {
-  // if input is empty, reset value to default
-  if (this.value.length == 0) this.value = langInput;
-  }).focus(function ()
-  {
-  // when input is focused, clear its contents
-  this.value = "";
-  });
-  });
-
-  var inputVal = $("#fbrp__21").val();
-  var inputCount = inputVal.length;
-
-  if (inputCount >= 43) {
-  $("#fbrp__21").css("width", "480px");
-  }
-  });
-</script>

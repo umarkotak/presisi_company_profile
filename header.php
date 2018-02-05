@@ -13,7 +13,7 @@ function aktif($page){
   <div class="row">
     <div class="col-xs-12">
       <!-- <a href="?page=home" id="btn-icon-home"><img src="images/logo-fix.png" style=""></a> -->
-      <a href="" id="btn-icon-home"><img src="images/logo.jpg" style=""></a>
+      <a href="?page=home" id="btn-icon-home"><img src="images/logo.jpg" style=""></a>
 
       <div class="horizontal-menu">
         <ul id="main-menu">
