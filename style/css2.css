@@ -4949,11 +4949,12 @@ a,input{
 .btn:focus,.btn:active,.btn:hover{
     border:0;
     box-shadow:none !important;
-    background-color:transparent
+    background-color: #ffd633;
 }
 .btn-border:focus,.btn-border:active,.btn-border:hover,.btn-default-blue.active{
     border:solid 1px #004685 !important;
-    background:url('images/button-1.png');
+    background-color: #ffd633;
+    /*background:url('images/button-1.png');*/
     color:#fff;
     background-size:100% 100%
 }
@@ -4970,6 +4971,9 @@ a,input{
     width:214px;
     background-size:212px
 }
+
+/*ALL BUTTON*/
+
 .btn-long{
     margin:0 auto;
     padding:0;
@@ -4983,7 +4987,7 @@ a,input{
 }
 .btn-default{
     margin:0 auto;
-    background-color: #0073e6;
+    background-color: #002080;
     border-radius: 5px;
     /*background-color:transparent;*/
     /*background-image:url('http://localhost/presisi_company_profile/images/button-blue.svg');*/
@@ -5000,14 +5004,14 @@ a,input{
     color:#000000 !important;
 }
 .btn-default:active:focus{
-    background-color:transparent
+    /*background-color:transparent*/
 }
 .btn-default-big,.btn-default-big:focus,.btn-default-big:active,.btn-default-big:hover{
     padding:6px;
     max-height:40px;
     text-transform:uppercase;
     margin:0 auto;
-    background-color: green;
+    /*background-color: green;*/
     /*background:url(https://c.p3parks.com/images/design/2016/btn-pattern.png) top left no-repeat;*/
     background-size:100% 100%;
     color:#fff;
@@ -5025,11 +5029,11 @@ a,input{
 }
 .blue-button{
     display:block;
-    background:url('https://c.p3parks.com/images/design/2016/hover-button.png');
+    /*background:url('https://c.p3parks.com/images/design/2016/hover-button.png');*/
     background-repeat:no-repeat;
     background-position:center;
     background-size:100% 100%;
-    color:#fff;
+    color:#0052cc;
     font-size:18px;
     font-family:DobraBook, 'Arial CE', Arial, Helvetica, sans-serif;
     text-align:center;
@@ -7203,9 +7207,14 @@ a.detail.btn{
     background:url('https://c.p3parks.com/files/red-btn-bg.svg');
     background-size:100% 100%
 }
+
+/* HOVER BUTTON*/
+
 a.detail.btn:hover{
     width:200px !important;
-    background:url('https://c.p3parks.com/files/hover-button.svg');
+    /*background:url('https://c.p3parks.com/files/hover-button.svg');*/
+    background-color: #ffd633;
+
     background-size:100% 100%
 }
 a.detail.btn,span.detail.btn{
@@ -8695,10 +8704,14 @@ a.button,span.button{
     .btn-border{
         max-width:100%
     }
+
+    /* HOVER BUTTON */
+
     .btn-default:focus,.btn-default:active,.btn-default:hover{
-        background:url('https://c.p3parks.com/files/hover-button.svg');
+        /*background:url('https://c.p3parks.com/files/hover-button.svg');*/
         background-size:100% 100%;
-        background-color:transparent
+        background-color: #ffd633;
+        /*background-color:transparent*/
     }
     .bx-wrapper,.bx-viewport,.image-cover{
         min-height:60vh
