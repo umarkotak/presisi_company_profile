@@ -101,7 +101,7 @@ function getDescription($conn, $title){
     </div>
   </section>
 
-  <section class="container-fluid what-we-do m-t-30" style="border-bottom: solid 1px #a30836;">
+  <section class="container what-we-do m-t-30" style="border-bottom: solid 1px #a30836;">
     <div class="row">
       <div class="col-sm-12">
         <iframe class="" style="width: 100%; height: 500px;"
@@ -164,7 +164,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="" id="warehouse_tour">
-        <h3 style="text-align: right; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3>
+        <h3 style="text-align: left; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3>
         <p style="text-align: justify;">
           <img src="images/Animacion02.gif" style="float: right; width: 300px; margin-left: 5px;">
           <?php
@@ -225,7 +225,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;" id="supply">
-        <h3 style="text-align: right;"><i class="fa fa-chain"></i> Supply Chain Management</h3>
+        <h3 style="text-align: left;"><i class="fa fa-chain"></i> Supply Chain Management</h3>
 
         <br>
         <div>
