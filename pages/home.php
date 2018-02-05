@@ -63,7 +63,7 @@
     </div>
   </section>
 
-  <section class="container-fluid what-we-do m-t-30" style="border-bottom: solid 1px #002080;">
+  <section class="container what-we-do m-t-30" style="border-bottom: solid 1px #002080;">
     <div class="row">
       <ul class="slider-image medium">
         <li style="background: url(images/we_image1.jpg);" class="loaded">
@@ -82,14 +82,14 @@
         </li>
       </ul>
     </div>
+    <br><br>
   </section>
 
-  <section class="container-fluid what-we-do m-t-30" style="border-bottom: solid 1px #002080;" id="warehouse_tour">
-    <br>
+  <section class="container what-we-do m-t-30" style="border-bottom: solid 1px #002080;" id="warehouse_tour">
     <div class="row">
-      <div class="col-sm-12">
-        <a class="h2">Warehouse Tour</a>
-
+      <div class="col-sm-12 p-center">
+        <a href="#warehouse_tour" class="h2">Warehouse Tour</a>
+        <br><br>
         <iframe class="" style="width: 100%; height: 500px;"
           src="https://www.youtube.com/embed/ip5jOLflJa8">
         </iframe>
