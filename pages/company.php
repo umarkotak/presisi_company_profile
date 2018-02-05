@@ -39,7 +39,7 @@ function getDescription($conn, $title){
       </div>
     </section>
 
-    <section class="container p-center fade-hidden" id="anchor-slide" style="border-bottom: solid 1px #b3d9ff;">
+    <section class="container p-center fade-hidden" id="anchor-slide" style="border-bottom: solid 1px #a30836;">
       <div class="row">
         <div class="col-xs-12 m-t-50 p-center t-center">
           <a href="#anchor-slide" title="Who we are" class="h2">Who we are</a>
@@ -63,7 +63,7 @@ function getDescription($conn, $title){
     </div>
   </section>
 
-  <section class="container what-we-do" style="border-bottom: solid 1px #002080;">
+  <section class="container what-we-do" style="border-bottom: solid 1px #a30836;">
     <div class="row">
       <ul class="slider-image medium">
         <li style="background: url(images/we_image1.jpg);" class="loaded">
@@ -84,7 +84,7 @@ function getDescription($conn, $title){
     </div>
   </section>
 
-  <section class="container p-center fade-hidden" id="vision" style="border-bottom: solid 1px #b3d9ff;">
+  <section class="container p-center fade-hidden" id="vision" style="border-bottom: solid 1px #a30836;">
     <div class="row">
       <div class="col-xs-6 m-t-50 t-center">
         <a href="#vision" title="Vision" class="h2"><i class="fa fa-dot-circle-o"></i>Vision</a>
@@ -110,7 +110,7 @@ function getDescription($conn, $title){
     <br><br>
   </section>
 
-  <section class="container p-center fade-hidden" id="ourvalues" style="border-bottom: solid 1px #b3d9ff;">
+  <section class="container p-center fade-hidden" id="ourvalues" style="border-bottom: solid 1px #a30836;">
     <div class="row">
       <div class="col-xs-12 m-t-50 t-center">
         <a href="#ourvalues" title="Our values" class="h2">Our values</a>
@@ -157,10 +157,11 @@ function getDescription($conn, $title){
 
                 // Using jQuery's animate() method to add smooth page scroll
                 // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+
                 $('html, body').animate({scrollTop: $(hash).offset().top}, 1500, function(){
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                  });
+                  // Add hash (#) to URL when done scrolling (default click behavior)
+                  window.location.hash = hash;
+                });
             } // End if
           });
       });
