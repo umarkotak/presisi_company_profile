@@ -124,10 +124,10 @@
       <div class="col-xs-12">
         <a href="?page=what_we_do&we=manage" class="we-manage">
           <div class="filter"></div>
-          <div data-bg="images/we_image3.jpg" class="about-img" style="background-image: url(&quot;images/we_image3.jpg&quot;);">
+          <div data-bg="images/we_image5.jpg" class="about-img" style="background-image: url(&quot;images/we_image5.jpg&quot;);">
             <div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;">
               <div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2>
-              <p>Well-maintained facility and individualized <br> services everyday¬—all year round.</p>
+              <p>Well-maintained facility and individualized services everyday—all year round.</p>
             </div>
           </div>
         </a>
@@ -184,7 +184,7 @@
       <div class="col-xs-12">
         <a href="?page=what_we_do&we=invest" class="we-manage">
           <div class="filter"></div>
-          <div data-bg="images/we_image4.jpg" class="about-img" style="background-image: url(&quot;images/we_image4.jpg&quot;);">
+          <div data-bg="images/we_image6.jpg" class="about-img" style="background-image: url(&quot;images/we_image6.jpg&quot;);">
             <div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;">
               <div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2>
               <p>We do not just invest in buildings; we invest in the future.</p>
