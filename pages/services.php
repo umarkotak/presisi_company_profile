@@ -230,17 +230,17 @@ function getDescription($conn, $title){
         <br>
         <div>
           <div class="col-xs-12">
-            <span style="padding: 5px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Evaluate</span>
-            <span style="color: #3366ff; font-weight: 800"> => </span>
-            <span style="padding: 5px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Design</span>
-            <span style="color: #3366ff; font-weight: 800"> => </span>
-            <span style="padding: 5px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Implement</span>
-            <span style="color: #3366ff; font-weight: 800"> => </span>
-            <span style="padding: 5px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Manage</span>
-            <span style="color: #3366ff; font-weight: 800"> => </span>
-            <span style="padding: 5px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Operate</span>
-            <span style="color: #3366ff; font-weight: 800"> => </span>
-            <span style="padding: 5px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Improve</span>
+            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px">Evaluate</span>
+            <i class="fa fa-arrow-right"></i>
+            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Design</span>
+            <i class="fa fa-arrow-right"></i>
+            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Implement</span>
+            <i class="fa fa-arrow-right"></i>
+            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Manage</span>
+            <i class="fa fa-arrow-right"></i>
+            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Operate</span>
+            <i class="fa fa-arrow-right"></i>
+            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Improve</span>
           </div>
 
           <!-- <div class="col-xs-12 col-md-2">
