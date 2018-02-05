@@ -12,11 +12,8 @@ function aktif($page){
 <header class="container-fluid op-0" style="opacity: 1;">
   <div class="row">
     <div class="col-xs-12">
-<<<<<<< HEAD
-      <a href="?page=home" id="btn-icon-home"><img src="images/logo-fix.png" style=""></a>
-=======
+      <!-- <a href="?page=home" id="btn-icon-home"><img src="images/logo-fix.png" style=""></a> -->
       <a href="" id="btn-icon-home"><img src="images/logo.jpg" style=""></a>
->>>>>>> 5ce0e4d89b7c05379464fffee3634902b58375f1
 
       <div class="horizontal-menu">
         <ul id="main-menu">

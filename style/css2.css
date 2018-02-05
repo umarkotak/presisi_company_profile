@@ -5576,10 +5576,10 @@ nav.opened{
 }
 #btn-icon-home{
     position:absolute;
-    top:11px;
-    left:49px;
+    top:8px;
+    left:30px;
     display:inline-block;
-    width:120px
+    width:300px;
 }
 #btn-icon-search{
     position:absolute;
