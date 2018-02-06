@@ -48,7 +48,7 @@ function getDescription($conn, $title){
       </div>
   </section>
 
-  <section class="container m-t-80" id="build_to_suit">
+  <section class="container m-t-50" id="build_to_suit">
     <div class="row">
       <div class="col-xs-12 p-center">
         <a href="" class="h2">Build to Suit Development</a>
@@ -111,14 +111,14 @@ function getDescription($conn, $title){
     </div>
   </section>
 
-  <section class="container p-center" style="border-bottom: solid 1px #a30836;" id="warehouse_service">
-    <div class="row m-b-50">
+  <section class="container p-center m-t-30" style="border-bottom: solid 1px #a30836;" id="warehouse_service">
+    <div class="row">
       <div class="col-xs-12 m-b-80 xs-m-b-0">
         <a href="" class="h2">Warehouse Service</a>
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-bottom: solid 1px #fcb6cb;">
-        <h3 style="text-align: left;"><i class="fa fa-cubes"></i> Warehouse Rental</h3>
+        <h3 style="text-align: left;"><i class="fa fa-cubes"></i> Warehouse Rental</h3><br>
         <p style="text-align: justify;">
           <img src="images/Animacion01.gif" style="float: left; width: 200px;">
           <?php
@@ -128,7 +128,7 @@ function getDescription($conn, $title){
         </p>
 
         <p style="text-align: justify;">
-          Along with storage facility, we also provide warehouse resources such as:
+          <br>Along with storage facility, we also provide warehouse resources such as:
         </p>
 
         <div class="col-xs-6">
@@ -164,7 +164,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="" id="warehouse_tour">
-        <h3 style="text-align: left; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3>
+        <h3 style="text-align: left; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3><br>
         <p style="text-align: justify;">
           <img src="images/Animacion02.gif" style="float: right; width: 300px; margin-left: 5px;">
           <?php
@@ -205,7 +205,7 @@ function getDescription($conn, $title){
       </div>
 
       <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;" id="distribution">
-        <h3 style="text-align: left;"><i class="fa fa-pie-chart"></i> Distribution Service</h3>
+        <h3 style="text-align: left;"><i class="fa fa-pie-chart"></i> Distribution Service</h3><br>
         <p style="text-align: justify;">
           <img src="images/Animacion09.gif" style="float: right; width: 300px; margin-left: 5px;">
             We are committed to serving you the highest quality of services from end-to-end. Our distribution service guarantees that the transport of goods from one location to another are feasible, safe, and prompt. We have a number of company-owned vehicles available to cater your needs and can be adjusted to suit your business as your requirements grow. Furthermore, our extensive network allows for other freight services to be carried out when needed. Health and safety during the distribution operations are paramount, and part of the process of achieving a high-quality service is ensuring that:
