@@ -48,7 +48,7 @@ function getDescription($conn, $title){
   <section class="container m-t-80" id="build_to_suit">
     <div class="row">
       <div class="col-xs-12 p-center">
-        <a href="https://www.p3parks.com/what-we-do" class="h2">Build to Suit Development</a>
+        <a href="" class="h2">Build to Suit Development</a>
         <p style="text-align: center;">
           <?php
             $title = $conn->quote("BUILD TO SUIT DEVELOPMENT");
