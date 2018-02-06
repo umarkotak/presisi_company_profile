@@ -30,10 +30,10 @@
       </div>
 
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
-        <div class="col-md-8">
+        <div class="col-md-10 p-center t-center">
           <p style="text-align: justify;">
             Presisi adopts a customer-focused culture. We bend-over-backwards to make sure our facilities exceed our customers’ needs and expectations. Part of the process of providing a high-quality building for our customers is by listening to their needs.
           </p>
@@ -47,7 +47,7 @@
             As a valued business partner, our customers can trust Presisi to deliver high-spec buildings they need in prime locations in a timely and cost-friendly manner.
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
       </div>
@@ -82,10 +82,10 @@
       </div>
 
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
-        <div class="col-md-8">
+        <div class="col-md-10 p-center t-center">
           <p style="text-align: justify;">
             With “Precision” carved into the fabric of our motto, our customers can expect to have a high level of personalized service tailored precisely to their needs and throughout their tenancy.
           </p>
@@ -99,7 +99,7 @@
             Moreover, rest assure that our facilities will be professionally maintained and regularly managed by us. By leaving the construction of the facility and its maintenance to us, our customers can use their capital for other investment opportunities and focus more on their core business.
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
       </div>
@@ -134,10 +134,10 @@
       </div>
 
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
-        <div class="col-md-8">
+        <div class="col-md-10 p-center t-center">
           <p style="text-align: justify;">
             Like developing friendships, here at Presisi, we make it our priority to get to know all of our customers on a personal level. This allow us to have a greater understanding of our customers’ business model and their requirements, and provide a high-quality level of personalized service they expect.
           </p>
@@ -159,7 +159,7 @@
             We are committed to walk the extra mile to exercise fast response and deliver precise solutions when dealing with any issues. To uphold such commitments, we assigned each of our customers their own Property Manager. By having personal relationships with all our customers, we are capable of providing them with the high standard of individualized services and reliability they expect.
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
       </div>
@@ -194,10 +194,10 @@
       </div>
 
       <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
-        <div class="col-md-8">
+        <div class="col-md-10 p-center t-center">
           <p style="text-align: justify;">
             According to a British real estate tycoon, Lord Harold Samuel, the three most important factors in buying a property are location, location, location.
           </p>
@@ -221,7 +221,7 @@
             Last but not least, we place great importance in the relationships we have with all our customers. If they have questions, we answer. If they have issues, we provide solutions. If they have requests, we deliver. Through our various service offerings, years of experience, excellent consistency and clear transparency, our customers can enjoy a long and fruitful relationship with us.
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1">
 
         </div>
       </div>
