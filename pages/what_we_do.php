@@ -127,7 +127,7 @@
           <div data-bg="images/we_image5.jpg" class="about-img" style="background-image: url(&quot;images/we_image5.jpg&quot;);">
             <div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;">
               <div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2>
-              <p>Well-maintained facility and individualized services everyday—all year round.</p>
+              <p>Well-maintained facility and individualized services everyday-all year round.</p>
             </div>
           </div>
         </a>
