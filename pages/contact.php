@@ -3,6 +3,12 @@
     $sql->execute();
     $data = $sql->fetch();
 ?>
+<style>
+    #map {
+        height: 400px;
+        width: 100%;
+    }
+</style>
 
 <main class="op-0" style="min-height: calc(100vh - 78px); opacity: 1;">
     <div id="sub-nav">
@@ -46,6 +52,25 @@
                         <p class="t-blue small">
                             <?php echo ": ".$data['office_email']; ?>
                         </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-fluid m-t-50 fade-hidden fade-visible animated fadeIn">
+            <div class="container p-t-0">
+                <div class="m-t-50">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2>DHL Multi User Facility</h2>
+                            <div class="red-line"></div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row m-t-30">
+                    <div id="map">
                     </div>
                 </div>
             </div>
@@ -104,3 +129,19 @@
     </div>
     <!-- /content -->
 </main>
+
+<script>
+    function initMap() {
+        var uluru = {lat: -6.360076, lng: 107.153103};
+        var map = new google.maps.Map(document.getElementById('map'), {
+            zoom: 18,
+            center: uluru
+        });
+        var marker = new google.maps.Marker({
+            position: uluru,
+            map: map
+        });
+    }
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTC_7mSugyEW2XInpNioSU9Yz0swJ_p9I&callback=initMap"></script>
