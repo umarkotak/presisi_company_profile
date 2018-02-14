@@ -3,8 +3,8 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 27, 2018 at 03:23 PM
--- Server version: 10.1.29-MariaDB
+-- Generation Time: 14 Feb 2018 pada 18.58
+-- Versi Server: 10.1.29-MariaDB
 -- PHP Version: 7.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Table structure for table `fifth_page`
+-- Struktur dari tabel `fifth_page`
 --
 
 CREATE TABLE `fifth_page` (
@@ -35,7 +35,7 @@ CREATE TABLE `fifth_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `fifth_page`
+-- Dumping data untuk tabel `fifth_page`
 --
 
 INSERT INTO `fifth_page` (`ffp_id`, `ffp_title`, `ffp_description`) VALUES
@@ -44,7 +44,7 @@ INSERT INTO `fifth_page` (`ffp_id`, `ffp_title`, `ffp_description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `first_page`
+-- Struktur dari tabel `first_page`
 --
 
 CREATE TABLE `first_page` (
@@ -55,7 +55,7 @@ CREATE TABLE `first_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `first_page`
+-- Dumping data untuk tabel `first_page`
 --
 
 INSERT INTO `first_page` (`fp_id`, `fp_title`, `fp_description`, `fp_subdescription`) VALUES
@@ -70,7 +70,7 @@ INSERT INTO `first_page` (`fp_id`, `fp_title`, `fp_description`, `fp_subdescript
 -- --------------------------------------------------------
 
 --
--- Table structure for table `fourth_page`
+-- Struktur dari tabel `fourth_page`
 --
 
 CREATE TABLE `fourth_page` (
@@ -80,7 +80,7 @@ CREATE TABLE `fourth_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `fourth_page`
+-- Dumping data untuk tabel `fourth_page`
 --
 
 INSERT INTO `fourth_page` (`ftp_id`, `ftp_title`, `ftp_description`) VALUES
@@ -89,7 +89,7 @@ INSERT INTO `fourth_page` (`ftp_id`, `ftp_title`, `ftp_description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `second_page`
+-- Struktur dari tabel `second_page`
 --
 
 CREATE TABLE `second_page` (
@@ -99,11 +99,11 @@ CREATE TABLE `second_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `second_page`
+-- Dumping data untuk tabel `second_page`
 --
 
 INSERT INTO `second_page` (`sp_id`, `sp_title`, `sp_description`) VALUES
-(1, 'WHO WE ARE', 'Presisi Rekayasa is a warehouse, logistics, and supply chain solutions provider that was established in 2006 by a group of logistics professionals with experiences from various industries. With 13,000 islands and a population of over 240 million people, the group believes that international corporations could thrive in and benefit from Indonesia\'s extensive market by having the proper infrastructures in place.<br><br>In the exciting Indonesian market, Presisi Rekayasa (or Presisi Logistics..?) believes that the synergy between international and local companies cultivates further economic growth for both parties. At Presisi Rekayasa, we do not just build infrastructures, we collaborate together with our clients to unlock their competitive advantage through our innovative logistics and supply chain services. We carefully analyse the requirements and the needs of our clients\' and build our solutions on warehousing and facility purposes prior to incorporating it with our distribution services. With our excellent warehouse and distribution services, and the support of bright engineers and employees, we believe that Presisi Rekayasa will maintain its success and continue to grow regionally.'),
+(1, 'WHO WE ARE', 'PT Presisi Rekayasa Persada (PRP) is a warehouse, logistics, and supply chain solutions provider that was established in 2006 by a group of logistics professionals with experiences from various industries. With 13,000 islands and a population of over 240 million people, the group believes that international corporations could thrive in and benefit from Indonesia\'s extensive market by having the proper infrastructures in place.<br><br>In the exciting Indonesian market, Presisi believes that the synergy between international and local companies cultivates further economic growth for both parties. At Presisi, we do not just build infrastructures, we collaborate together with our clients to unlock their competitive advantage through our innovative logistics and supply chain services. We carefully analyse the requirements and the needs of our clients\', and build our solutions on warehousing and facility purposes prior to incorporating it with our distribution services. With our excellent warehouse and distribution services, and the support of bright engineers and employees, we believe that Presisi will maintain its success and continue to grow regionally.'),
 (2, 'VISION', 'To be the leader in warehouse, logistics and supply chain solutions provider.'),
 (3, 'MISSION', 'To be a reliable business partner by providing high value services for our partners and shareholders.'),
 (4, 'OUR VALUES', 'Deliver excellent services<br>Cost conscious<br>Adaptive and flexible<br>Safe and environmental-friendly<br>People and leader empowerment'),
@@ -112,7 +112,7 @@ INSERT INTO `second_page` (`sp_id`, `sp_title`, `sp_description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `sixth_page`
+-- Struktur dari tabel `sixth_page`
 --
 
 CREATE TABLE `sixth_page` (
@@ -126,7 +126,7 @@ CREATE TABLE `sixth_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `sixth_page`
+-- Dumping data untuk tabel `sixth_page`
 --
 
 INSERT INTO `sixth_page` (`sxp_id`, `office_name`, `office_address`, `sxp_description`, `office_phone`, `office_fax`, `office_email`) VALUES
@@ -135,7 +135,7 @@ INSERT INTO `sixth_page` (`sxp_id`, `office_name`, `office_address`, `sxp_descri
 -- --------------------------------------------------------
 
 --
--- Table structure for table `third_page`
+-- Struktur dari tabel `third_page`
 --
 
 CREATE TABLE `third_page` (
@@ -145,7 +145,7 @@ CREATE TABLE `third_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `third_page`
+-- Dumping data untuk tabel `third_page`
 --
 
 INSERT INTO `third_page` (`tp_id`, `tp_title`, `tp_description`) VALUES
