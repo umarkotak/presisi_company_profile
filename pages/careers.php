@@ -14,7 +14,7 @@ function getDescription($conn, $title){
   <!-- content -->
   <section class="container-fluid fade-hidden fade-visible animated fadeIn full-visible">
     <div class="row">
-      <div class="image-cover loaded" data-src="http://localhost/presisi_company_profile/images/hires.JPG" style="max-height: 537px; background: url(&quot;http://localhost/presisi_company_profile/images/career_image3.JPG&quot;);">
+      <div class="image-cover loaded" data-src="images/hires.JPG" style="max-height: 537px; background: url(&quot;images/career_image3.JPG&quot;);">
         <div class="filter"></div>
 
         <div class="center-box">
