@@ -48,9 +48,9 @@ function getDescription($conn, $title){
       </div>
   </section>
 
-  <section class="container m-t-50" id="build_to_suit">
+  <section class="container fade-hidden" id="build_to_suit">
     <div class="row">
-      <div class="col-xs-12 p-center">
+      <div class="col-xs-12 m-t-50 p-center">
         <a href="" class="h2">Build to Suit Development</a>
         <p style="text-align: center;">
           <?php
@@ -61,7 +61,7 @@ function getDescription($conn, $title){
       </div>
 
       <div style="">
-        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80 p-center">
           <a href="#build_to_suit" class="btn btn-default">Attentive</a>
           <p style="text-align: center;">
             <?php
@@ -70,7 +70,7 @@ function getDescription($conn, $title){
             ?>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80 p-center">
           <a href="#build_to_suit" class="btn btn-default">Long term lease</a>
           <p style="text-align: center;">
             <?php
@@ -79,7 +79,7 @@ function getDescription($conn, $title){
             ?>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80 p-center">
           <a href="#build_to_suit" class="btn btn-default">Responsible</a>
           <p style="text-align: center;">
             <?php
@@ -88,7 +88,7 @@ function getDescription($conn, $title){
             ?>
           </p>
         </div>
-        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80">
+        <div class="col-xs-12 col-sm-12 col-lg-6 m-t-80 p-center">
           <a href="#build_to_suit" class="btn btn-default">Secure</a>
           <p style="text-align: center;">
             <?php
@@ -111,9 +111,9 @@ function getDescription($conn, $title){
     </div>
   </section>
 
-  <section class="container p-center m-t-30" style="border-bottom: solid 1px #a30836;" id="warehouse_service">
+  <section class="container p-center fade-hidden" style="border-bottom: solid 1px #a30836;" id="warehouse_service">
     <div class="row">
-      <div class="col-xs-12 m-b-80 xs-m-b-0">
+      <div class="col-xs-12 m-b-80 xs-m-b-0 m-t-50">
         <a href="" class="h2">Warehouse Service</a>
       </div>
 
@@ -174,9 +174,9 @@ function getDescription($conn, $title){
         </p>
       </div>
 
-      <section class="container what-we-do m-t-30">
+      <section class="container">
         <div class="row">
-          <div class="col-sm-12 p-center">
+          <div class="col-sm-12 m-t-30 p-center">
             <iframe class="" style="width: 100%; height: 500px;"
               src="https://www.youtube.com/embed/ip5jOLflJa8">
             </iframe>
@@ -195,7 +195,7 @@ function getDescription($conn, $title){
         </p>
       </div>
 
-      <div class="col-xs-6 m-b-80 xs-m-b-0" style="">
+      <div class="col-xs-6 m-b-80 xs-m-b-0">
         <h3 style="font-size: 20px; border-bottom: 1px solid #fcb6cb;">Value added warehousing</h3>
         <p>
           <?php
@@ -271,7 +271,7 @@ function getDescription($conn, $title){
       </div>
   </section>
 
-  <form id="m2b7d3moduleform_1" method="post" action="https://www.p3parks.com/" class="cms_form" enctype="multipart/form-data">
+  <form id="m2b7d3moduleform_1" method="post" action="" class="cms_form" enctype="multipart/form-data">
     <div class="hidden">
       <input type="hidden" name="mact" value="FormBuilder,m2b7d3,default,1" />
       <input type="hidden" name="m2b7d3fbrp_callcount" value="1" />
