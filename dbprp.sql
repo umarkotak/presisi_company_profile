@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 14 Feb 2018 pada 19.08
--- Versi Server: 10.1.29-MariaDB
--- PHP Version: 7.2.0
+-- Generation Time: Feb 14, 2018 at 08:20 PM
+-- Server version: 10.1.28-MariaDB
+-- PHP Version: 7.1.11
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,7 +25,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `fifth_page`
+-- Table structure for table `fifth_page`
 --
 
 CREATE TABLE `fifth_page` (
@@ -35,7 +35,7 @@ CREATE TABLE `fifth_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `fifth_page`
+-- Dumping data for table `fifth_page`
 --
 
 INSERT INTO `fifth_page` (`ffp_id`, `ffp_title`, `ffp_description`) VALUES
@@ -44,7 +44,7 @@ INSERT INTO `fifth_page` (`ffp_id`, `ffp_title`, `ffp_description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `first_page`
+-- Table structure for table `first_page`
 --
 
 CREATE TABLE `first_page` (
@@ -55,7 +55,7 @@ CREATE TABLE `first_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `first_page`
+-- Dumping data for table `first_page`
 --
 
 INSERT INTO `first_page` (`fp_id`, `fp_title`, `fp_description`, `fp_subdescription`) VALUES
@@ -70,7 +70,7 @@ INSERT INTO `first_page` (`fp_id`, `fp_title`, `fp_description`, `fp_subdescript
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `fourth_page`
+-- Table structure for table `fourth_page`
 --
 
 CREATE TABLE `fourth_page` (
@@ -80,7 +80,7 @@ CREATE TABLE `fourth_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `fourth_page`
+-- Dumping data for table `fourth_page`
 --
 
 INSERT INTO `fourth_page` (`ftp_id`, `ftp_title`, `ftp_description`) VALUES
@@ -89,7 +89,7 @@ INSERT INTO `fourth_page` (`ftp_id`, `ftp_title`, `ftp_description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `second_page`
+-- Table structure for table `second_page`
 --
 
 CREATE TABLE `second_page` (
@@ -99,7 +99,7 @@ CREATE TABLE `second_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `second_page`
+-- Dumping data for table `second_page`
 --
 
 INSERT INTO `second_page` (`sp_id`, `sp_title`, `sp_description`) VALUES
@@ -112,7 +112,7 @@ INSERT INTO `second_page` (`sp_id`, `sp_title`, `sp_description`) VALUES
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `sixth_page`
+-- Table structure for table `sixth_page`
 --
 
 CREATE TABLE `sixth_page` (
@@ -126,7 +126,7 @@ CREATE TABLE `sixth_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `sixth_page`
+-- Dumping data for table `sixth_page`
 --
 
 INSERT INTO `sixth_page` (`sxp_id`, `office_name`, `office_address`, `sxp_description`, `office_phone`, `office_fax`, `office_email`) VALUES
@@ -135,7 +135,7 @@ INSERT INTO `sixth_page` (`sxp_id`, `office_name`, `office_address`, `sxp_descri
 -- --------------------------------------------------------
 
 --
--- Struktur dari tabel `third_page`
+-- Table structure for table `third_page`
 --
 
 CREATE TABLE `third_page` (
@@ -145,7 +145,7 @@ CREATE TABLE `third_page` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data untuk tabel `third_page`
+-- Dumping data for table `third_page`
 --
 
 INSERT INTO `third_page` (`tp_id`, `tp_title`, `tp_description`) VALUES
@@ -164,6 +164,28 @@ INSERT INTO `third_page` (`tp_id`, `tp_title`, `tp_description`) VALUES
 (13, 'VALUE ADDED', '<ol style=\"text-align: justify;\"><li>15 minutes from exit toll road Cikarang Barat (Cikampek Toll Road).</li><li>Approximately 50 km from Central Business District in Jakarta - Sudirman.</li><li>Premises are built on safe and secured industrial areas.</li><li>Nearby several industrial areas: Kawasan Industri Jababeka, East Jakarta Industrial Part (EJIP), Kawasan Industri MM2100 Cibitung and Lippo Cikarang Delta Silikon 1.</li><li>New access toll roads.</li><li>Nature conscious, sustainable and environmentally-friendly facility.</li><li>End-to-end solutions.</li></ol>'),
 (14, 'DISTRIBUTION SERVICE', 'We are committed to serving you the highest quality of services from end-to-end. Our distribution service guarantees that the transport of goods from one location to another are feasible, safe, and prompt. We have a number of company-owned vehicles available to cater your needs and can be adjusted to suit your business as your requirements grow. Furthermore, our extensive network allows for other freight services to be carried out when needed. Health and safety during the distribution operations are paramount, and part of the process of achieving a high-quality service is ensuring that:<br><br><span style=\"display:inline-block; width: 50px;\"></span>1. Employees are required to undertake training and encouraged to report issues. <br><span style=\"display:inline-block; width: 50px;\"></span>2. Vehicles are regularly maintained. <br><span style=\"display:inline-block; width: 50px;\"></span>3. Logistics Management Service <br><span style=\"display:inline-block; width: 50px;\"></span>4. Repair centre and spare part management'),
 (15, 'SUPPLY CHAIN MANAGEMENT', '<p style=\"text-align: justify; margin-top: 20px;\"><span style=\"display:inline-block; width: 50px;\"></span>We believe that effective process leads to real results. Here at Presisi, we integrate technology, business process and our client\'s company culture to develop supply chain strategies that could help them thrive in today\'s uncertain environment. When designing an effective supply chain strategy, we do not believe in a one-size-fits-all method. Every client is unique, and every strategy is designed to provide them with the best solution for their business. Our evaluation starts from the end demand, then work backwards through production and supply, and ultimately identifying the most logical facility designs and locations along with transportation options.</p><p style=\"text-align: justify;\"><span style=\"display:inline-block; width: 50px;\"></span>Following the evaluation process is the design; where we create an efficient logistics and supply chain network, and facility optimizations. To ensure a successful execution, our design team stays involved during the implementation process. Such involvement includes the management of people, process and integration of technology. We provide our clients with real-time visibility throughout their whole supply chain process, which help them to continually raise the bar for constant improvements, and ultimately obtain the desired results.</p><p style=\"text-align: justify;\"><span style=\"display:inline-block; width: 50px;\"></span>Become a forward-looking company with Presisi today as we embark on this journey of logistics and supply chain management together. By treating supply chain as a dynamic hedge against uncertainty, actively reconfiguring and examining, we help our clients embrace the new environment\'s growing uncertainty and complexity.</p>');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wwd_page`
+--
+
+CREATE TABLE `wwd_page` (
+  `wwd_id` int(3) NOT NULL,
+  `wwd_title` varchar(50) NOT NULL,
+  `wwd_description` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `wwd_page`
+--
+
+INSERT INTO `wwd_page` (`wwd_id`, `wwd_title`, `wwd_description`) VALUES
+(1, 'WE BUILD', '<p style=\"text-align: justify;\">Presisi adopts a customer-focused culture. We bend-over-backwards to make sure our facilities exceed our customers needs and expectations. Part of the process of providing a high-quality building for our customers is by listening to their needs.</p><p style=\"text-align: justify;\">When developing a new facility for our customers, our experienced team collaborate with our clients from the sourcing of the land through the construction, and ultimately the handover of the building. Our Build-to-Suit development service allow our customers to have a customized building that meet their specific requirements down to the last detail. In the process of designing the premise, our customers can rely on our high level of attentiveness to build an efficient, fully-optimized, and personalized warehouse facility. We then obtain a planning and building permission prior to the actual construction, and deliver the finished premise according to the strict budget and schedule.</p><p style=\"text-align: justify;\">In addition to our Build-to-Suit development service, we also offer readily-available storage facilities in prime locations throughout Indonesia.</p><p style=\"text-align: justify;\">As a valued business partner, our customers can trust Presisi to deliver high-spec buildings they need in prime locations in a timely and cost-friendly manner.</p>'),
+(2, 'WE OWN', '<p style=\"text-align: justify;\">With precision carved into the fabric of our motto, our customers can expect to have a high level of personalized service tailored precisely to their needs and throughout their tenancy.</p><p style=\"text-align: justify;\">We understand the importance of logistics and infrastructure in a business operation, and that is why it is always our main goal to provide more than just a space for our customers, but a home; a solid foundation for their business to grow.</p><p style=\"text-align: justify;\">Like how we build our home, our facilities are constructed with the same careful measure and considerations brick-by-brick-selecting only the finest materials to ensure its sustainability. As the owner of our buildings, we do not intend on selling our properties. Thus, providing customers with consistent long-term visibility of future expenses and high level of personalized service throughout their tenancy however long they may be.</p><p style=\"text-align: justify;\">Moreover, rest assure that our facilities will be professionally maintained and regularly managed by us. By leaving the construction of the facility and its maintenance to us, our customers can use their capital for other investment opportunities and focus more on their core business.</p>'),
+(3, 'WE MANAGE', '<p style=\"text-align: justify;\">Like developing friendships, here at Presisi, we make it our priority to get to know all of our customers on a personal level. This allow us to have a greater understanding of our customers business model and their requirements, and provide a high-quality level of personalized service they expect. </p><p style=\"text-align: justify;\">Equipped with an in-depth market knowledge, we are able to put forward innovative and personalized solutions that meets customers specific needs, solve problems, and improve efficiency. </p><p style=\"text-align: justify;\">Our management service includes but not limited to:<ol style=\"text-align: justify;\"><li>The management and maintenance of each individual warehouse property</li><li>The management of power stations and waste water</li><li>The maintenance of sprinkler, emergency and security systems</li><li>Arranging favourable and cost-friendly insurance terms</li><li>Guaranteeing safe and clean premises</li><li>Provide clear information on the long-lastingness of different pieces of equipment and how much they cost</li><li>And more...</li></ol></p><p style=\"text-align: justify;\">We are committed to walk the extra mile to exercise fast response and deliver precise solutions when dealing with any issues. To uphold such commitments, we assigned each of our customers their own Property Manager. By having personal relationships with all our customers, we are capable of providing them with the high standard of individualized services and reliability they expect.</p>'),
+(5, 'WE INVEST', '<p style=\"text-align: justify;\">According to a British real estate tycoon, Lord Harold Samuel, the three most important factors in buying a property are location, location, location.</p><p style=\"text-align: justify;\">Here at Presisi, we invest in lands and properties that are strategically located, and with near access to toll roads, industrial areas and Jakarta\'s Central Business District.\r\n</p><p style=\"text-align: justify;\">Should our customers request for a storage facility in other regions of Indonesia outside of Jakarta, our experts are capable of curating the most strategic locations to build a warehouse. This includes having knowledge on:<ol style=\"text-align: justify;\"><li>Locations with the best access to factories, business districts, industrial regions, ports, and airports</li><li>Issues pertaining to traffic</li><li>Lands with the potential of becoming an in-demand location in the future</li><li>The type of buildings that are suitable to build in the areas</li><li>Planning permissions</li><li>Whether local authority and society support new development</li><li>And many more...</li></ol>\r\n</p><p style=\"text-align: justify;\">We understand the rapid transformation in technology, and that is why in addition to acquiring properties in prime locations, we also invest in the latest innovation to improve productivity, increase utilization and reduce cost in a warehouse operation.</p><p style=\"text-align: justify;\">Last but not least, we place great importance in the relationships we have with all our customers. If they have questions, we answer. If they have issues, we provide solutions. If they have requests, we deliver. Through our various service offerings, years of experience, excellent consistency and clear transparency, our customers can enjoy a long and fruitful relationship with us.</p>');
 
 --
 -- Indexes for dumped tables
@@ -206,6 +228,12 @@ ALTER TABLE `third_page`
   ADD PRIMARY KEY (`tp_id`);
 
 --
+-- Indexes for table `wwd_page`
+--
+ALTER TABLE `wwd_page`
+  ADD PRIMARY KEY (`wwd_id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -244,6 +272,12 @@ ALTER TABLE `sixth_page`
 --
 ALTER TABLE `third_page`
   MODIFY `tp_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+
+--
+-- AUTO_INCREMENT for table `wwd_page`
+--
+ALTER TABLE `wwd_page`
+  MODIFY `wwd_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

@@ -1,3 +1,11 @@
+<?php
+function getDescription($conn, $title){
+  $sql = $conn->prepare("SELECT wwd_description FROM wwd_page WHERE wwd_title=$title LIMIT 1");
+  $sql->execute();
+  $data = $sql->fetch();
+  return $data['wwd_description'];
+}
+?>
 <main class="op-0" style="min-height: calc(100vh - 78px);">
 
   <div <?php if($_GET['we'] == 'build') { echo "style=\"display: block;\""; } else { echo "style=\"display: none;\""; } ?>>
@@ -34,18 +42,10 @@
 
         </div>
         <div class="col-md-10 p-center t-center">
-          <p style="text-align: justify;">
-            Presisi adopts a customer-focused culture. We bend-over-backwards to make sure our facilities exceed our customers’ needs and expectations. Part of the process of providing a high-quality building for our customers is by listening to their needs.
-          </p>
-          <p style="text-align: justify;">
-            When developing a new facility for our customers, our experienced team collaborate with our clients from the sourcing of the land through the construction, and ultimately the handover of the building. Our Build-to-Suit development service allow our customers to have a customized building that meet their specific requirements down to the last detail. In the process of designing the premise, our customers can rely on our high level of attentiveness to build an efficient, fully-optimized, and personalized warehouse facility. We then obtain a planning and building permission prior to the actual construction, and deliver the finished premise according to the strict budget and schedule.
-          </p>
-          <p style="text-align: justify;">
-            In addition to our Build-to-Suit development service, we also offer readily-available storage facilities in prime locations throughout Indonesia.
-          </p>
-          <p style="text-align: justify;">
-            As a valued business partner, our customers can trust Presisi to deliver high-spec buildings they need in prime locations in a timely and cost-friendly manner.
-          </p>
+          <?php
+            $title = $conn->quote("WE BUILD");
+            echo getDescription($conn, $title);
+          ?>
         </div>
         <div class="col-md-1">
 
@@ -86,18 +86,10 @@
 
         </div>
         <div class="col-md-10 p-center t-center">
-          <p style="text-align: justify;">
-            With “Precision” carved into the fabric of our motto, our customers can expect to have a high level of personalized service tailored precisely to their needs and throughout their tenancy.
-          </p>
-          <p style="text-align: justify;">
-            We understand the importance of logistics and infrastructure in a business operation, and that is why it is always our main goal to provide more than just a space for our customers, but a home; a solid foundation for their business to grow.
-          </p>
-          <p style="text-align: justify;">
-            Like how we build our home, our facilities are constructed with the same careful measure and considerations brick-by-brick––selecting only the finest materials to ensure its sustainability. As the owner of our buildings, we do not intend on selling our properties. Thus, providing customers with consistent long-term visibility of future expenses and high level of personalized service throughout their tenancy however long they may be.
-          </p>
-          <p style="text-align: justify;">
-            Moreover, rest assure that our facilities will be professionally maintained and regularly managed by us. By leaving the construction of the facility and its maintenance to us, our customers can use their capital for other investment opportunities and focus more on their core business.
-          </p>
+          <?php
+            $title = $conn->quote("WE OWN");
+            echo getDescription($conn, $title);
+          ?>
         </div>
         <div class="col-md-1">
 
@@ -138,26 +130,10 @@
 
         </div>
         <div class="col-md-10 p-center t-center">
-          <p style="text-align: justify;">
-            Like developing friendships, here at Presisi, we make it our priority to get to know all of our customers on a personal level. This allow us to have a greater understanding of our customers’ business model and their requirements, and provide a high-quality level of personalized service they expect.
-          </p>
-          <p style="text-align: justify;">
-            Equipped with an in-depth market knowledge, we are able to put forward innovative and personalized solutions that meets customers’ specific needs, solve problems, and improve efficiency.
-          </p>
-          <p style="text-align: justify;">
-            Our management service includes but not limited to:<br>
-            1. The management and maintenance of each individual warehouse property<br>
-            2. The management of power stations and waste water<br>
-            3. The maintenance of sprinkler, emergency and security systems<br>
-            4. Arranging favourable and cost-friendly insurance terms<br>
-            5. Guaranteeing safe and clean premises<br>
-            6. Provide clear information on the long-lastingness of different pieces of equipment <br>
-            <span style="display:inline-block; width: 70px;"></span>and how much they cost<br>
-            7. And more…<br>
-          </p>
-          <p style="text-align: justify;">
-            We are committed to walk the extra mile to exercise fast response and deliver precise solutions when dealing with any issues. To uphold such commitments, we assigned each of our customers their own Property Manager. By having personal relationships with all our customers, we are capable of providing them with the high standard of individualized services and reliability they expect.
-          </p>
+          <?php
+            $title = $conn->quote("WE MANAGE");
+            echo getDescription($conn, $title);
+          ?>
         </div>
         <div class="col-md-1">
 
@@ -198,28 +174,10 @@
 
         </div>
         <div class="col-md-10 p-center t-center">
-          <p style="text-align: justify;">
-            According to a British real estate tycoon, Lord Harold Samuel, the three most important factors in buying a property are location, location, location.
-          </p>
-          <p style="text-align: justify;">
-            Here at Presisi, we invest in lands and properties that are strategically located, and with near access to toll roads, industrial areas and Jakarta’s Central Business District.
-          </p>
-          <p style="text-align: justify;">
-            Should our customers request for a storage facility in other regions of Indonesia outside of Jakarta, our experts are capable of curating the most strategic locations to build a warehouse. This includes having knowledge on: <br>
-            1. Locations with the best access to factories, business districts, industrial regions, ports, and airports<br>
-            2. Issues pertaining to traffic<br>
-            3. Lands with the potential of becoming an in-demand location in the future<br>
-            4. The type of buildings that are suitable to build in the areas<br>
-            5. Planning permissions<br>
-            6. Whether local authority and society support new development<br>
-            7. And many more…<br>
-          </p>
-          <p style="text-align: justify;">
-            We understand the rapid transformation in technology, and that is why in addition to acquiring properties in prime locations, we also invest in the latest innovation to improve productivity, increase utilization and reduce cost in a warehouse operation.
-          </p>
-          <p style="text-align: justify;">
-            Last but not least, we place great importance in the relationships we have with all our customers. If they have questions, we answer. If they have issues, we provide solutions. If they have requests, we deliver. Through our various service offerings, years of experience, excellent consistency and clear transparency, our customers can enjoy a long and fruitful relationship with us.
-          </p>
+          <?php
+            $title = $conn->quote("WE INVEST");
+            echo getDescription($conn, $title);
+          ?>
         </div>
         <div class="col-md-1">
 
