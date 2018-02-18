@@ -31,10 +31,10 @@ function getDescription($conn, $title){
 
       <div style="">
         <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-          <a href="#warehouse_service" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Warehouse Rental</p></a>
+          <a href="#build_to_suit" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Build to Suit Development</p></a>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-          <a href="#build_to_suit" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Build to Suit Development</p></a>
+          <a href="#warehouse_rental" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Warehouse Rental</p></a>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
           <a href="#distribution" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Distribution</p></a>
@@ -111,164 +111,187 @@ function getDescription($conn, $title){
     </div>
   </section>
 
-  <section class="container p-center fade-hidden" style="border-bottom: solid 1px #a30836;" id="warehouse_service">
-    <div class="row">
-      <div class="col-xs-12 m-b-80 xs-m-b-0 m-t-50">
-        <a href="" class="h2">Warehouse Service</a>
+  <section class="container  p-center">
+    <div class="col-xs-12 p-t-0 m-t-50">
+      <div class="row">
+          <a href="" class="h2">Warehouse Service</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="container fade-hidden" style="border-bottom: solid 1px #fcb6cb;" id="warehouse_rental">
+    <div class="col-xs-12 p-t-0 m-t-30">
+      <div class="row">
+        <h3 style="text-align: left;"><i class="fa fa-cubes"></i> Warehouse Rental</h3><br>
       </div>
 
-      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-bottom: solid 1px #fcb6cb;">
-        <h3 style="text-align: left;"><i class="fa fa-cubes"></i> Warehouse Rental</h3><br>
-        <p style="text-align: justify;">
-          <img src="images/Animacion01.gif" style="float: left; width: 200px;">
-          <?php
-              $title = $conn->quote("WAREHOUSE RENTAL");
-              echo getDescription($conn, $title);
-            ?>
-        </p>
-
-        <p style="text-align: justify;">
-          <br>Along with storage facility, we also provide warehouse resources such as:
-        </p>
-
-        <div class="col-xs-6">
+      <div class="row">
+        <div class="t-center p-center">
           <p style="text-align: justify;">
+            <img src="images/Animacion01.gif" style="float: left; width: 200px;">
             <?php
+            $title = $conn->quote("WAREHOUSE RENTAL");
+            echo getDescription($conn, $title);
+            ?>
+          </p>
+
+          <p style="text-align: justify;">
+            <br>Along with storage facility, we also provide warehouse resources such as:
+          </p>
+
+          <div class="col-xs-6">
+            <p style="text-align: justify;">
+              <?php
               $title = $conn->quote("WAREHOUSE RESOURCE 1");
               echo getDescription($conn, $title);
-            ?>
-          </p>
-        </div>
+              ?>
+            </p>
+          </div>
 
-        <div class="col-xs-6">
-          <p style="text-align: justify;">
-            <?php
+          <div class="col-xs-6">
+            <p style="text-align: justify;">
+              <?php
               $title = $conn->quote("WAREHOUSE RESOURCE 2");
               echo getDescription($conn, $title);
+              ?>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container fade-hidden" style="border-bottom: solid 1px #fcb6cb;" id="warehouse_capacity">
+    <div class="col-xs-12 p-t-0 m-t-30">
+      <div class="row">
+        <h3 style="text-align: left; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3><br>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/prp/DJI_0006.MOV.Still004.jpg" style="border-radius: 5px;">
+        </div>
+        <div class="col-md-3">
+          <img src="images/prp/DJI_0006.MOV.Still019.jpg" style="border-radius: 5px;">
+        </div>
+        <div class="col-md-3">
+          <img src="images/prp/DJI_0006.MOV.Still012.jpg" style="border-radius: 5px;">
+        </div>
+        <div class="col-md-3">
+          <img src="images/prp/DJI_0006.MOV.Still008.jpg" style="border-radius: 5px;">
+        </div> 
+      </div>
+
+      <div class="row">
+        <div class="t-center p-center m-t-30">
+          <p style="text-align: justify;">
+            <img src="images/Animacion02.gif" style="float: right; width: 300px; margin-left: 5px;">
+            <?php
+              $title = $conn->quote("WAREHOUSE CAPACITY");
+              echo getDescription($conn, $title);
             ?>
           </p>
         </div>
       </div>
 
-      <div class="col-md-3">
-        <img src="images/prp/DJI_0006.MOV.Still004.jpg" style="border-radius: 5px;">
-      </div>
-      <div class="col-md-3">
-        <img src="images/prp/DJI_0006.MOV.Still019.jpg" style="border-radius: 5px;">
-      </div>
-      <div class="col-md-3">
-        <img src="images/prp/DJI_0006.MOV.Still012.jpg" style="border-radius: 5px;">
-      </div>
-      <div class="col-md-3">
-        <img src="images/prp/DJI_0006.MOV.Still008.jpg" style="border-radius: 5px;">
+      <div class="row">
+        <iframe class="" style="width: 100%; height: 500px;"
+          src="https://www.youtube.com/embed/ip5jOLflJa8">
+        </iframe>
       </div>
 
-      <div class="col-xs-12 m-b-80 xs-m-b-0" style="" id="warehouse_tour">
-        <h3 style="text-align: left; margin-top: 15px;"><i class="fa fa-server"></i> Warehouse Capacity</h3><br>
-        <p style="text-align: justify;">
-          <img src="images/Animacion02.gif" style="float: right; width: 300px; margin-left: 5px;">
-          <?php
-              $title = $conn->quote("WAREHOUSE CAPACITY");
-              echo getDescription($conn, $title);
-          ?>
-        </p>
-      </div>
-
-      <section class="container">
-        <div class="row">
-          <div class="col-sm-12 m-t-30 p-center">
-            <iframe class="" style="width: 100%; height: 500px;"
-              src="https://www.youtube.com/embed/ip5jOLflJa8">
-            </iframe>
-          </div>
+      <div class="row t-center p-center m-t-30">
+        <div class="col-xs-6 m-b-80 xs-m-b-0" style="border-right: 1px solid #fcb6cb">
+          <h3 style="font-size: 20px; border-bottom: 1px solid #fcb6cb;">Civil and structural details of our facility construction</h3>
+          <p>
+            <?php
+            $title = $conn->quote("CIVIL AND STRUCTURAL");
+            echo getDescription($conn, $title);
+            ?>
+          </p>
         </div>
-        <br>
-      </section>
 
-      <div class="col-xs-6 m-b-80 xs-m-b-0" style="border-right: 1px solid #fcb6cb">
-        <h3 style="font-size: 20px; border-bottom: 1px solid #fcb6cb;">Civil and structural details of our facility construction</h3>
-        <p>
-          <?php
-              $title = $conn->quote("CIVIL AND STRUCTURAL");
-              echo getDescription($conn, $title);
-          ?>
-        </p>
+        <div class="col-xs-6 m-b-80 xs-m-b-0">
+          <h3 style="font-size: 20px; border-bottom: 1px solid #fcb6cb;">Value added warehousing</h3>
+          <p>
+            <?php
+            $title = $conn->quote("VALUE ADDED");
+            echo getDescription($conn, $title);
+            ?>
+        </div>
       </div>
+    </div>
+  </section>
 
-      <div class="col-xs-6 m-b-80 xs-m-b-0">
-        <h3 style="font-size: 20px; border-bottom: 1px solid #fcb6cb;">Value added warehousing</h3>
-        <p>
-          <?php
-              $title = $conn->quote("VALUE ADDED");
-              echo getDescription($conn, $title);
-          ?>
-      </div>
-
-      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;" id="distribution">
+  <section class="container fade-hidden" style="border-bottom: solid 1px #fcb6cb;" id="distribution">
+    <div class="col-xs-12 p-t-0 m-t-30">
+      <div class="row">
         <h3 style="text-align: left;"><i class="fa fa-pie-chart"></i> Distribution Service</h3><br>
-        <p style="text-align: justify;">
-          <img src="images/Animacion09.gif" style="float: right; width: 300px; margin-left: 5px;">
+      </div>
+
+      <div class="row">
+        <div class="t-center p-center">
+          <p style="text-align: justify;">
+            <img src="images/Animacion09.gif" style="float: right; width: 300px; margin-left: 5px;">
             We are committed to serving you the highest quality of services from end-to-end. Our distribution service guarantees that the transport of goods from one location to another are feasible, safe, and prompt. We have a number of company-owned vehicles available to cater your needs and can be adjusted to suit your business as your requirements grow. Furthermore, our extensive network allows for other freight services to be carried out when needed. Health and safety during the distribution operations are paramount, and part of the process of achieving a high-quality service is ensuring that:
 
             <br><span style="display:inline-block; width: 50px;"></span>o Employees are required to undertake training and encouraged to report issues.
             <br><span style="display:inline-block; width: 50px;"></span>o Vehicles are regularly maintained.
-        </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container fade-hidden" style="border-bottom: solid 1px #fcb6cb;" id="logistics">
+    <div class="col-xs-12 p-t-0 m-t-30">
+      <div class="row">
+        <h3 style="text-align: left;"><i class="fa fa-cog"></i> Logistics Management Services</h3>
       </div>
 
-      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;" id="logistics">
-        <h3 style="text-align: left;"><i class="fa fa-cog"></i> Logistics Management Services</h3>
-        <p style="text-align: justify;">
-          <img src="images/Animacion10.gif" style="float: right; width: 300px; margin-left: 5px;">
+      <div class="row">
+        <div class="t-center p-center">
+          <p style="text-align: justify;">
+            <img src="images/Animacion10.gif" style="float: right; width: 300px; margin-left: 5px;">
             <br><span style="display:inline-block; width: 50px;"></span>o Repair centre.
             <br><span style="display:inline-block; width: 50px;"></span>o Spare parts management.
-        </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container fade-hidden" style="border-bottom: solid 1px #a30836;" id="supply">
+    <div class="col-xs-12 p-t-0 m-t-30">
+      <div class="row">
+        <h3 style="text-align: left;"><i class="fa fa-chain"></i> Supply Chain Management</h3>
       </div>
 
-      <div class="col-xs-12 m-b-80 xs-m-b-0" style="border-top: solid 1px #fcb6cb; padding-top: 10px;" id="supply">
-        <h3 style="text-align: left;"><i class="fa fa-chain"></i> Supply Chain Management</h3>
-
-        <br>
-        <div>
-          <div class="col-xs-12">
-            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px">Evaluate</span>
-            <i class="fa fa-arrow-right"></i>
-            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Design</span>
-            <i class="fa fa-arrow-right"></i>
-            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Implement</span>
-            <i class="fa fa-arrow-right"></i>
-            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Manage</span>
-            <i class="fa fa-arrow-right"></i>
-            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Operate</span>
-            <i class="fa fa-arrow-right"></i>
-            <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Improve</span>
-          </div>
-
-          <!-- <div class="col-xs-12 col-md-2">
-            <a href="#supply" class="btn btn-default">Evaluate</a>
-          </div>
-          <div class="col-xs-12 col-md-2">
-            <a href="#supply" class="btn btn-default">Design</a>
-          </div>
-          <div class="col-xs-12 col-md-2">
-            <a href="#supply" class="btn btn-default">Implement</a>
-          </div>
-          <div class="col-xs-12 col-md-2">
-            <a href="#supply" class="btn btn-default">Manage</a>
-          </div>
-          <div class="col-xs-12 col-md-2">
-            <a href="#supply" class="btn btn-default">Operate</a>
-          </div>
-          <div class="col-xs-12 col-md-2">
-            <a href="#supply" class="btn btn-default">Improve</a>
-          </div> -->
+      <div class="row">
+        <div class="col-xs-12 t-center p-center m-t-30">
+          <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px">Evaluate</span>
+          <i class="fa fa-arrow-right"></i>
+          <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Design</span>
+          <i class="fa fa-arrow-right"></i>
+          <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Implement</span>
+          <i class="fa fa-arrow-right"></i>
+          <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Manage</span>
+          <i class="fa fa-arrow-right"></i>
+          <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Operate</span>
+          <i class="fa fa-arrow-right"></i>
+          <span style="padding: 0px 20px; border-radius: 20px; background-color: #3366ff; color: white; font-size: 25px; margin: 10px 2px;">Improve</span>
         </div>
+      </div>
 
-        <br>
-        <?php
+      <div class="row">
+        <div class="t-center p-center">
+          <?php
               $title = $conn->quote("SUPPLY CHAIN MANAGEMENT");
               echo getDescription($conn, $title);
           ?>
+        </div>
       </div>
+    </div>
   </section>
 
   <form id="m2b7d3moduleform_1" method="post" action="" class="cms_form" enctype="multipart/form-data">
