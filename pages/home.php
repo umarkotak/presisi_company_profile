@@ -30,8 +30,8 @@
   </section>
 
   <section class="container p-center" style="border-bottom: solid 1px #a30836;" id="anchor-slide">
-    <div class="row m-b-50">
-      <div class="col-xs-12 m-b-80 xs-m-b-0">
+    <div class="row m-t-50">
+      <div class="col-xs-12 xs-m-b-0">
         <a href="#anchor-slide" class="h2">Company</a>
         <p>Presisi owns, develops and manages sustainable logistics facilities, and provides innovative supply chain solutions across Indonesia.</p>
       </div>
@@ -54,8 +54,8 @@
     </div>
   </section>
 
-  <section class="container m-t-80" id="what_we_do">
-    <div class="row">
+  <section class="container" id="what_we_do">
+    <div class="row m-t-50">
       <div class="col-xs-12 p-center">
         <a href="#what_we_do" class="h2">What we do</a>
         <p>At Presisi, we do not just build storage facilities, we collaborate with our clients to help them unlock their competitive advantages through our high quality buildings, and efficient logistics and supply chain services.</p>
@@ -95,8 +95,8 @@
     <br><br>
   </section>
 
-  <section class="container what-we-do m-t-30" style="border-bottom: solid 1px #a30836;" id="warehouse_tour">
-    <div class="row">
+  <section class="container what-we-do" style="border-bottom: solid 1px #a30836;" id="warehouse_tour">
+    <div class="row m-t-30">
       <div class="col-sm-12 p-center">
         <a href="#warehouse_tour" class="h2">Warehouse Tour</a>
         <br><br>
