@@ -40,7 +40,7 @@ function getDescription($conn, $title){
           <a href="#distribution" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Distribution</p></a>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
-          <a href="#logistics" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Logisticts Management</p></a>
+          <a href="#logistics" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Logistics Management</p></a>
         </div>
         <div class="col-xs-12 col-sm-12 col-lg-one-fifth m-t-80">
           <a href="#supply" class="btn btn-default" style="height: 40px;"><p style="font-size: 15px;">Supply Chain Management</p></a>
