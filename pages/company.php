@@ -33,7 +33,7 @@ function getDescription($conn, $title){
               <div class="col-xs-12 col-md-one-fifth"> <a href="#ourvalues" title="Our values" class="btn btn-default">Our values</a></div>
               <div class="col-xs-12 col-md-one-fifth"> <a href="#legality" title="Legality" class="btn btn-default">Legality</a></div>
             </div>
-            <a class="company-arrow" href="#" id="hp-arrow"><img src="https://c.p3parks.com/images/design/2016/hp-arrow.png" width="80" height="41" alt="[design/2016/hp-arrow.png]"></a></div>
+            <a class="company-arrow" href="#" id="hp-arrow"><img src="images/hp-arrow.png" width="80" height="41" alt="[design/2016/hp-arrow.png]"></a></div>
           </div>
         </div>
       </div>
@@ -69,16 +69,16 @@ function getDescription($conn, $title){
         <li style="background: url(images/we_image1.jpg);" class="loaded">
           <a href="?page=what_we_do&we=build"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;">
             <strong><div class="dot-red"></div><h2 class="h2-white"">WE BUILD</h2></strong>
-            <p>Our customers are the lifeblood of our organization.</p></div></a>
+            <p>Our customers are the lifeblood of our organization.<br><u class="rdmore"><i>Read more</i></u></p></div></a>
         </li>
         <li data-src="images/we_image2.jpg">
-          <a href="?page=what_we_do&we=own"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.</p></div></a>
+          <a href="?page=what_we_do&we=own"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE OWN</h2></strong><p>Our buildings provide a firm foundation and <br> a safe residence for your business.<br><u class="rdmore"><i>Read more</i></u></p></div></a>
         </li>
         <li data-src="images/we_image3.jpg">
-          <a href="?page=what_we_do&we=manage"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round. </p></div></a>
+          <a href="?page=what_we_do&we=manage"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE MANAGE</h2></strong><p>Well-maintained facility and individualized <br> services everyday¬—all year round.<br><u class="rdmore"><i>Read more</i></u></p></div></a>
         </li>
         <li data-src="images/we_image4.jpg">
-          <a href="?page=what_we_do&we=invest"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.</p></div></a>
+          <a href="?page=what_we_do&we=invest"><div class="filter"></div><div class="center-box-mob" style="background-color: rgba(0,0,0,0.4); width: 50%; border-radius: 10px;"><strong><div class="dot-red"></div> <h2 class="h2-white">WE INVEST</h2></strong><p>We do not just invest in buildings; we invest in the future.<br><u class="rdmore"><i>Read more</i></u></p></div></a>
         </li>
       </ul>
     </div>

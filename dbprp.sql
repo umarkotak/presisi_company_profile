@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 17, 2018 at 04:39 AM
--- Server version: 10.1.28-MariaDB
--- PHP Version: 7.1.11
+-- Generation Time: Mar 13, 2018 at 02:37 PM
+-- Server version: 10.1.29-MariaDB
+-- PHP Version: 7.2.0
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -25,6 +25,50 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `admin_prp`
+--
+
+CREATE TABLE `admin_prp` (
+  `id` tinyint(4) NOT NULL,
+  `username` varchar(20) NOT NULL,
+  `password` varchar(16) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `admin_prp`
+--
+
+INSERT INTO `admin_prp` (`id`, `username`, `password`) VALUES
+(1, 'presisirekayasa', 'adminprp');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `download_report`
+--
+
+CREATE TABLE `download_report` (
+  `dr_id` tinyint(4) NOT NULL,
+  `title` varchar(30) NOT NULL,
+  `name` varchar(25) NOT NULL,
+  `job_title` varchar(30) NOT NULL,
+  `company` varchar(50) NOT NULL,
+  `industry` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `phone_number` varchar(15) NOT NULL,
+  `address` varchar(100) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `download_report`
+--
+
+INSERT INTO `download_report` (`dr_id`, `title`, `name`, `job_title`, `company`, `industry`, `email`, `phone_number`, `address`) VALUES
+(5, '', 'Malik', '', '', '', 'abdulchoiri19@gmail.com', '', 'H. Mali');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `fifth_page`
 --
 
@@ -40,6 +84,26 @@ CREATE TABLE `fifth_page` (
 
 INSERT INTO `fifth_page` (`ffp_id`, `ffp_title`, `ffp_description`) VALUES
 (1, 'WAREHOUSE DESIGN PROPOSAL', 'This proposal contained an initial design and images of our Logistics Distribution Centre that our company built for a customer. Having had the opportunity to work closely with our customer and to be entrusted with the construction of their desired facility, we are confident that our available facilities would meet the needs of your requirements.<br><br>Reception, offices, and overall facade of our facilities can be easily redesign and will not translate into a higher cost or a compromise operation.');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `files`
+--
+
+CREATE TABLE `files` (
+  `file_id` tinyint(4) NOT NULL,
+  `filename` varchar(25) NOT NULL,
+  `extention` varchar(6) NOT NULL,
+  `labelname` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `files`
+--
+
+INSERT INTO `files` (`file_id`, `filename`, `extention`, `labelname`) VALUES
+(13, 'logo_G5p@9', 'jpg', 'Logo');
 
 -- --------------------------------------------------------
 
@@ -84,7 +148,7 @@ CREATE TABLE `fourth_page` (
 --
 
 INSERT INTO `fourth_page` (`ftp_id`, `ftp_title`, `ftp_description`) VALUES
-(1, 'Grow with Presisi', 'At Presisi, we truly value our people we believe in their capabilities and potentials. We see them as qualified, uniquely talented and supportive team members whose contributions we deeply appreciate. As a company that has been around for many years, we attributed the success of our firm to our dedicated employees. Our long-standing position as being one of Indonesia\'s warehouse, logistics, and supply chain solutions provider is only made possible by creating a fulfilling working environment for our people. We strive to create an environment which promote integrity, respect, and ethical behaviour within our corporation and beyond. Each and every one of our employees are encouraged to take initiatives, participate in active discussions in different teams, and make a difference. <br><br>If innovation, warehouse, logistics and supply chain are your passion; success and excellence are what you strive for; be a part of our growing team.<br><br><b>Send your CV to: <a href=\"mailto:career@presisirekayasa.com\" target=\"_top\">info@presisirekayasa.com</a></b><br><br><small>Data compliance: Please provide us with the necessary information such as resume or curriculum vitae. By providing us with such information, you agree that we may use these materials for the purpose of considering your application. If your application is unsuccessful, we may keep the information for future consideration for a limited period of time. Your information will be stored in accordance to the country\'s data protection laws.</small>');
+(1, 'Grow with Presisi', 'At Presisi, we truly value our people we believe in their capabilities and potentials. We see them as qualified, uniquely talented and supportive team members whose contributions we deeply appreciate. As a company that has been around for many years, we attributed the success of our firm to our dedicated employees. Our long-standing position as being one of Indonesia\'s warehouse, logistics, and supply chain solutions provider is only made possible by creating a fulfilling working environment for our people. We strive to create an environment which promote integrity, respect, and ethical behaviour within our corporation and beyond. Each and every one of our employees are encouraged to take initiatives, participate in active discussions in different teams, and make a difference. <br><br>If innovation, warehouse, logistics and supply chain are your passion; success and excellence are what you strive for; be a part of our growing team.<br><br><b>Send your CV to: <a href=\"mailto:info@presisirekayasa.com\" target=\"_top\">info@presisirekayasa.com</a></b><br><br><small>Data compliance: Please provide us with the necessary information such as resume or curriculum vitae. By providing us with such information, you agree that we may use these materials for the purpose of considering your application. If your application is unsuccessful, we may keep the information for future consideration for a limited period of time. Your information will be stored in accordance to the country\'s data protection laws.</small>');
 
 -- --------------------------------------------------------
 
@@ -192,10 +256,28 @@ INSERT INTO `wwd_page` (`wwd_id`, `wwd_title`, `wwd_description`) VALUES
 --
 
 --
+-- Indexes for table `admin_prp`
+--
+ALTER TABLE `admin_prp`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `download_report`
+--
+ALTER TABLE `download_report`
+  ADD PRIMARY KEY (`dr_id`);
+
+--
 -- Indexes for table `fifth_page`
 --
 ALTER TABLE `fifth_page`
   ADD PRIMARY KEY (`ffp_id`);
+
+--
+-- Indexes for table `files`
+--
+ALTER TABLE `files`
+  ADD PRIMARY KEY (`file_id`);
 
 --
 -- Indexes for table `first_page`
@@ -238,10 +320,28 @@ ALTER TABLE `wwd_page`
 --
 
 --
+-- AUTO_INCREMENT for table `admin_prp`
+--
+ALTER TABLE `admin_prp`
+  MODIFY `id` tinyint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `download_report`
+--
+ALTER TABLE `download_report`
+  MODIFY `dr_id` tinyint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+
+--
 -- AUTO_INCREMENT for table `fifth_page`
 --
 ALTER TABLE `fifth_page`
   MODIFY `ffp_id` int(3) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `files`
+--
+ALTER TABLE `files`
+  MODIFY `file_id` tinyint(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT for table `first_page`

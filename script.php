@@ -1,3 +1,4 @@
+<script type="text/javascript" src="style/js1.js"></script>
 <script type="text/javascript" src="style/js2.js"></script>
 
 <script type="text/javascript">

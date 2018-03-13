@@ -16,7 +16,6 @@
   <!-- <link rel="stylesheet" type="text/css" href="style/custom-font.css"> -->
   <link rel="stylesheet" type="text/css" href="style/presisi.css">
 
-  <script type="text/javascript" src="style/js1.js"></script>
 <!--   <script type="text/javascript">
   /* <![CDATA[ */
   $(function() {new NNewsAjax("", "stranka", {"disableAjaxOnFirstPage":1,"summarytemplate":"HP - P3Live","category":"EN | P3 live | Press-Releases","detailpage":"blogs","number":3,"module":"News","action":"default","deliminer":"","show_page_numbers":true,"lang":"","returnid":"2","alias":"home"})});

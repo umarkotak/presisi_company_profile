@@ -14,7 +14,7 @@ function getDescription($conn, $title){
   <!-- content -->
   <section class="container-fluid fade-hidden fade-visible animated fadeIn full-visible">
     <div class="row">
-      <div class="image-cover loaded" data-src="images/hires.JPG" style="max-height: 537px; background: url(&quot;images/career_image3.JPG&quot;);">
+      <div class="image-cover loaded" data-src="images/career_image3.jpg" style="max-height: 537px; background: url(&quot;images/career_image3.jpg&quot;);">
         <div class="filter"></div>
 
         <div class="center-box">
@@ -23,7 +23,7 @@ function getDescription($conn, $title){
 
         <div class="container link-box-bottom">
           <div class="row">
-            <a class="company-arrow" href="#" id="hp-arrow"><img src="https://c.p3parks.com/images/design/2016/hp-arrow.png" width="80" height="41" alt="[design/2016/hp-arrow.png]"></a></div>
+            <a class="company-arrow" href="#" id="hp-arrow"><img src="images/hp-arrow.png" width="80" height="41" alt="[design/2016/hp-arrow.png]"></a></div>
           </div>
         </div>
       </div>

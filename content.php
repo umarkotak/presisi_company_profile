@@ -16,6 +16,7 @@ if (isset($_GET['page'])) {
 
   $action = $_GET['action'];
   if ($action == 'sendmail')                   { include "action/sendmail.php"; }
+  elseif ($action == 'downloadfile')           { include "action/downloadfile.php"; }
 
 } else {
   // header("Location: ?page=home");

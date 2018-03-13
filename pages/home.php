@@ -31,23 +31,23 @@
 
   <section class="container p-center" style="border-bottom: solid 1px #a30836;" id="anchor-slide">
     <div class="row m-t-50">
-      <div class="col-xs-12 xs-m-b-0">
+      <div class="col-xs-12 m-b-30">
         <a href="#anchor-slide" class="h2">Company</a>
         <p>Presisi owns, develops and manages sustainable logistics facilities, and provides innovative supply chain solutions across Indonesia.</p>
       </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25" id="counter-visiblity-check">
+      <div class="col-xs-12 col-sm-6 col-lg-3 m-b-25" id="counter-visiblity-check">
         <img src="images/Animacion07.gif" style="height: 185px; border-radius: 10px;">
         <a href="?page=company" class="btn btn-default">Our story</a>
       </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
+      <div class="col-xs-12 col-sm-6 col-lg-3 m-b-25">
         <img src="images/Animacion02.gif" style="height: 185px; border-radius: 10px;">
         <a href="?page=services" class="btn btn-default">Services</a>
       </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
-        <img src="images/Animacion03.gif" style="height: 185px; border-radius: 10px;">
+      <div class="col-xs-12 col-sm-6 col-lg-3 m-b-25">
+        <img src="images/animacion03.gif" style="height: 185px; border-radius: 10px;">
         <a href="?page=contact" class="btn btn-default">Contacts</a>
       </div>
-      <div class="col-xs-12 col-sm-6 col-lg-3 xs-m-b-25">
+      <div class="col-xs-12 col-sm-6 col-lg-3 m-b-25">
         <img src="images/Animacion06.gif" style="height: 185px; border-radius: 10px;">
         <a href="?page=careers" class="btn btn-default">Careers</a>
       </div>
@@ -62,16 +62,6 @@
       </div>
     </div>
   </section>
-
-  <style type="text/css">
-  .rdmore{
-    color: blue;
-  }
-
-  .rdmore:hover{
-    color: yellow;
-  }
-  </style>
 
   <section class="container what-we-do m-t-30" style="border-bottom: solid 1px #a30836;">
     <div class="row">

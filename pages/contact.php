@@ -97,22 +97,22 @@
                         <div class="col-xs-12 col-sm-7">
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <input type="text" name="full_name" value="" size="50" maxlength="128" required placeholder="ex: John Doe" class="required input-min-height replaceLang col-xs-12">
+                                    <input type="text" name="full_name" maxlength="128" required placeholder="ex: John Doe" class="form-control">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <input type="text" name="email" value="" size="50" maxlength="128" required placeholder="ex: john@example.com" class="required input-min-height replaceLang col-xs-12">
+                                    <input type="email" name="email" maxlength="128" required placeholder="ex: john@example.com" class="form-control"">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <input type="text" name="phone" value="" size="50" maxlength="12" placeholder="ex: 085123456789" class="required input-min-height replaceLang col-xs-12">
+                                    <input type="text" name="phone" maxlength="12" placeholder="ex: 085123456789" class="form-control">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <textarea name="message" maxlength="500" class="required input-min-height replaceLang col-xs-12" required placeholder="ex: Lorem ipsum ..."></textarea>
+                                    <textarea name="message" maxlength="500" class="form-control" required placeholder="ex: Lorem ipsum ..."></textarea>
                                 </div>
                             </div>
                             <div class="row">
